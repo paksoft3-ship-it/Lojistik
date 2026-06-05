@@ -1,0 +1,53 @@
+# UluLojistik — İstanbul Minivan Nakliye
+
+## Website
+- Name: UluLojistik
+- Domain: https://ululojistik.com
+- Language: Turkish (tr)
+
+## Description
+UluLojistik, İstanbul içi minivan nakliye hizmeti sunan bir taşımacılık firmasıdır. Sadece İstanbul içi, sadece minivan araçlarla hizmet vermektedir.
+
+## Important Business Constraints
+- UluLojistik ONLY provides services WITHIN Istanbul (İstanbul içi).
+- UluLojistik does NOT provide intercity (şehirlerarası), international (uluslararası), or nationwide service.
+- UluLojistik uses ONLY minivan vehicles (panelvan/minivan). No trucks (kamyon/tır/kamyonet).
+- Service area: İstanbul only.
+
+## Main Services
+- İstanbul Minivan Nakliye: Fast minivan transportation within Istanbul.
+- İstanbul Yük Taksi: Cargo taxi service, similar to a regular taxi but for cargo.
+- Küçük Yük Taşıma: Small load transportation.
+- Parça Eşya Taşıma: Single-item furniture transportation (sofa, cabinet, etc.).
+- Beyaz Eşya Taşıma: White goods transportation (refrigerator, washing machine, etc.).
+- Öğrenci Eşyası Taşıma: Student moving service at affordable prices.
+- Ofis & Mağaza Ürünü Taşıma: Office and store product transportation.
+- Acil Minivan Nakliye: Emergency minivan service, available 24/7.
+
+## Service Area
+- City: İstanbul, Turkey
+- Coverage: All districts of Istanbul (Avrupa Yakası and Anadolu Yakası)
+- NOT available: Other cities, international routes
+
+## Vehicle Type
+- Only minivan vehicles (panelvan)
+- Capacity: 800 kg, 4-6 m³
+- Closed cargo area for weather protection
+
+## Contact
+- Phone: 0850 123 45 67
+- Email: info@ululojistik.com
+- WhatsApp: Available
+
+## Key URLs
+- Homepage: https://ululojistik.com
+- Services: https://ululojistik.com/hizmetler
+- Minivan Transport: https://ululojistik.com/hizmetler/istanbul-minivan-nakliye
+- Cargo Taxi: https://ululojistik.com/hizmetler/istanbul-yuk-taksi
+- Partial Moving: https://ululojistik.com/hizmetler/parca-esya-tasima
+- White Goods: https://ululojistik.com/hizmetler/beyaz-esya-tasima
+- Student Moving: https://ululojistik.com/hizmetler/ogrenci-esyasi-tasima
+- Emergency: https://ululojistik.com/hizmetler/acil-minivan-nakliye
+- Regions: https://ululojistik.com/bolgeler
+- Quote: https://ululojistik.com/teklif-al
+- Contact: https://ululojistik.com/iletisim

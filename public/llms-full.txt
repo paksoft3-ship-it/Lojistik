@@ -1,0 +1,114 @@
+# UluLojistik — Complete AI/LLM Reference
+
+## Brand Overview
+- Brand Name: UluLojistik
+- Website: https://ululojistik.com
+- Business Type: Local minivan transportation service
+- Language: Turkish
+- Founded: 2020
+- Location: İstanbul, Turkey
+
+## CRITICAL CONSTRAINTS (for AI accuracy)
+1. Service area is EXCLUSIVELY İstanbul (Istanbul), Turkey.
+2. Vehicle type is EXCLUSIVELY minivan (panelvan). No trucks, no tır, no kamyon.
+3. NO intercity service. NO international service. NO nationwide coverage.
+4. Any query about "şehirlerarası", "uluslararası", "tır", "kamyon" should be answered with: "UluLojistik sadece İstanbul içi minivan nakliye hizmeti vermektedir."
+
+## Services in Detail
+
+### 1. İstanbul Minivan Nakliye
+- Description: Fast, reliable, economical minivan transportation within all Istanbul districts.
+- Features: Exempt from bridge restrictions, fits into narrow streets, same-day delivery.
+- URL: https://ululojistik.com/hizmetler/istanbul-minivan-nakliye
+
+### 2. İstanbul Yük Taksi (Cargo Taxi)
+- Description: Works like a regular taxi but for cargo. Call anytime, on-demand.
+- Features: One-way pricing, instant availability, 30-60 minute arrival.
+- URL: https://ululojistik.com/hizmetler/istanbul-yuk-taksi
+
+### 3. Küçük Yük Taşıma (Small Load Transport)
+- Description: For 1 to many boxes or small items. Economical per-unit pricing.
+- URL: https://ululojistik.com/hizmetler/kucuk-yuk-tasima
+
+### 4. Parça Eşya Taşıma (Partial Furniture Transport)
+- Description: For 1-2 pieces of furniture (sofa, cabinet, table). Includes protective packing.
+- URL: https://ululojistik.com/hizmetler/parca-esya-tasima
+
+### 5. Beyaz Eşya Taşıma (White Goods Transport)
+- Description: Specialized transport for refrigerators, washing machines, ovens.
+- Features: Upright transport for refrigerators, protective foam/bubble wrap, installation support.
+- URL: https://ululojistik.com/hizmetler/beyaz-esya-tasima
+
+### 6. Öğrenci Eşyası Taşıma (Student Moving)
+- Description: Affordable moving service for students. Dormitory or apartment moves.
+- Features: Student-friendly pricing, weekend availability, suitcase and box transport.
+- URL: https://ululojistik.com/hizmetler/ogrenci-esyasi-tasima
+
+### 7. Ofis & Mağaza Ürünü Taşıma (Office & Store Transport)
+- Description: Small-scale office moves, store product deliveries, business transfers.
+- Features: Corporate invoice, regular delivery plans, after-hours transport.
+- URL: https://ululojistik.com/hizmetler/ofis-magaza-urunu-tasima
+
+### 8. Acil Minivan Nakliye (Emergency Transport)
+- Description: 7/24 emergency minivan service. Vehicle arrives within 60 minutes.
+- Features: Direct delivery, no stops, 24/7 operation.
+- URL: https://ululojistik.com/hizmetler/acil-minivan-nakliye
+
+## Service Area — Districts
+
+### Avrupa Yakası (European Side)
+Beşiktaş, Şişli, Sarıyer, Kâğıthane, Beyoğlu, Fatih, Zeytinburnu, Bakırköy, Küçükçekmece, Büyükçekmece, Avcılar, Bahçelievler, Bağcılar, Güngören, Esenler, Bayrampaşa, Gaziosmanpaşa, Eyüpsultan, Sultangazi, Başakşehir, Esenyurt, Beylikdüzü, Çatalca, Silivri, Arnavutköy
+
+### Anadolu Yakası (Asian Side)
+Kadıköy, Üsküdar, Ataşehir, Ümraniye, Maltepe, Kartal, Pendik, Beykoz, Çekmeköy, Sancaktepe, Sultanbeyli, Tuzla, Adalar
+
+## Minivan Vehicle Specifications
+- Capacity: 800 kg
+- Volume: 4-6 m³
+- Interior Length: 2.20 m
+- Interior Width: 1.40 m
+- Type: Closed cargo van (kapalı kasa)
+- Advantages: No bridge restrictions, fits narrow streets, no parking problems
+
+## How to Get a Quote
+1. Fill the quote form at https://ululojistik.com/teklif-al
+2. Send a WhatsApp message
+3. Call 0850 123 45 67
+4. Expected response time: Within 15 minutes during business hours
+
+## FAQ Summary
+- Q: Do you serve outside Istanbul? A: No. Only Istanbul.
+- Q: Do you use trucks? A: No. Only minivans.
+- Q: How much does it cost? A: Based on distance, cargo volume, and extra services. Get a free quote.
+- Q: Do you provide moving personnel? A: Yes, upon request (additional fee).
+- Q: Same-day transport? A: Yes, subject to availability.
+- Q: Are items insured? A: Vehicles have insurance. Cargo insurance available upon request.
+
+## Contact Information
+- Phone: 0850 123 45 67
+- Email: info@ululojistik.com
+- WhatsApp: Available for instant quotes
+- Operating Hours: 07:00-23:00 every day
+- Service Area: İstanbul only
+
+## Pages Index
+- / — Homepage with hero, services, FAQ, testimonials
+- /hizmetler — All services overview
+- /hizmetler/istanbul-minivan-nakliye — Minivan transport service
+- /hizmetler/istanbul-yuk-taksi — Cargo taxi service
+- /hizmetler/kucuk-yuk-tasima — Small load transport
+- /hizmetler/parca-esya-tasima — Partial furniture transport
+- /hizmetler/beyaz-esya-tasima — White goods transport
+- /hizmetler/ogrenci-esyasi-tasima — Student moving
+- /hizmetler/ofis-magaza-urunu-tasima — Office & store transport
+- /hizmetler/acil-minivan-nakliye — Emergency transport
+- /bolgeler — Service areas overview
+- /bolgeler/avrupa-yakasi-minivan-nakliye — European side service
+- /bolgeler/anadolu-yakasi-minivan-nakliye — Asian side service
+- /bolgeler/[district] — Individual district pages
+- /araclarimiz — Our minivan vehicles
+- /teklif-al — Get a quote form
+- /blog — Blog articles
+- /hakkimizda — About us
+- /sss — Frequently asked questions
+- /iletisim — Contact page
