@@ -1,6 +1,7 @@
 import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
 import { Container } from "@/components/ui/Container";
 import Link from "next/link";
+import Image from "next/image";
 
 interface InnerHeroProps {
   title: string;
@@ -9,6 +10,8 @@ interface InnerHeroProps {
   primaryCTA?: { label: string; href: string };
   secondaryCTA?: { label: string; href: string };
   badge?: string;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export function InnerHero({
@@ -18,6 +21,8 @@ export function InnerHero({
   primaryCTA,
   secondaryCTA,
   badge,
+  imageUrl,
+  imageAlt,
 }: InnerHeroProps) {
   return (
     <section className="py-12 md:py-16 bg-white border-b border-[#E5E7EB]">
@@ -63,11 +68,16 @@ export function InnerHero({
             )}
           </div>
 
-          {/* Visual placeholder */}
-          <div className="hidden md:flex h-[280px] rounded-[14px] bg-[#F8F9FA] border border-[#E5E7EB] items-center justify-center">
-            <span className="material-symbols-outlined text-[80px] text-[#E63900] opacity-20" aria-hidden="true">
-              airport_shuttle
-            </span>
+          {/* Visual */}
+          <div className="hidden md:block relative h-[280px] rounded-[14px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
+            <Image
+              src={imageUrl || "/images/service-minivan.png"}
+              alt={imageAlt || title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority
+            />
           </div>
         </div>
       </Container>

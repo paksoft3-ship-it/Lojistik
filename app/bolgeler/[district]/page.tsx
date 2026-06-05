@@ -49,6 +49,9 @@ export default async function DistrictPage({ params }: Props) {
       ? "/bolgeler/avrupa-yakasi-minivan-nakliye"
       : "/bolgeler/anadolu-yakasi-minivan-nakliye";
 
+  const regionImage =
+    district.side === "avrupa" ? "/images/region-avrupa.png" : "/images/region-anadolu.png";
+
   const nearbyDistricts = allDistricts
     .filter((d) => d.side === district.side && d.slug !== slug)
     .slice(0, 8);
@@ -91,6 +94,8 @@ export default async function DistrictPage({ params }: Props) {
         ]}
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge={`${sideLabel} — ${district.name}`}
+        imageUrl={regionImage}
+        imageAlt={`${district.name} Minivan Nakliye`}
       />
 
       <QuickQuoteForm defaultDistrict={district.name} />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { BlogPost } from "@/data/blog";
 
@@ -22,11 +23,15 @@ export function BlogCard({ post, className }: BlogCardProps) {
         className
       )}
     >
-      {/* Image placeholder */}
-      <div className="h-44 bg-[#F8F9FA] flex items-center justify-center border-b border-[#E5E7EB]">
-        <span className="material-symbols-outlined text-[48px] text-[#E5E7EB]" aria-hidden="true">
-          article
-        </span>
+      {/* Image */}
+      <div className="relative h-44 w-full bg-[#F8F9FA] border-b border-[#E5E7EB] overflow-hidden">
+        <Image
+          src={post.imageUrl || "/images/blog-hero.png"}
+          alt={post.imageAlt || post.title}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-300"
+          sizes="(max-width: 768px) 100vw, 33vw"
+        />
       </div>
 
       <div className="p-5 flex flex-col gap-2 flex-grow">

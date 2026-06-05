@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { Container } from "@/components/ui/Container";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
@@ -75,28 +76,20 @@ export function Hero() {
           </div>
 
           {/* Right: Visual */}
-          <div className="relative h-[360px] lg:h-[460px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden flex items-center justify-center">
-            <div
-              className="absolute inset-0 opacity-10"
-              style={{
-                backgroundImage:
-                  "radial-gradient(circle at 2px 2px, #E63900 1px, transparent 0)",
-                backgroundSize: "24px 24px",
-              }}
-              aria-hidden="true"
+          <div className="relative h-[360px] lg:h-[460px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
+            <Image
+              src="/images/hero-minivan.png"
+              alt="İstanbul içi hızlı minivan nakliye"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority
             />
-            <div className="relative text-center">
-              <span className="material-symbols-outlined text-[100px] text-[#E63900] opacity-20" aria-hidden="true">
-                airport_shuttle
-              </span>
-              <p className="text-[#6B7280] text-sm mt-2">
-                İstanbul&apos;un tüm ilçelerine minivan hizmet
-              </p>
-            </div>
+            <div className="absolute inset-0 bg-black/10 pointer-events-none" />
 
             {/* Floating cards */}
-            <div className="absolute top-6 left-6 bg-white rounded-[12px] border border-[#E5E7EB] px-4 py-3 flex items-center gap-3 shadow-sm">
-              <div className="w-9 h-9 rounded-full bg-[#F8F9FA] flex items-center justify-center">
+            <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm rounded-[12px] border border-[#E5E7EB] px-4 py-3 flex items-center gap-3 shadow-sm">
+              <div className="w-9 h-9 rounded-full bg-[#FFF0EB] flex items-center justify-center">
                 <span className="material-symbols-outlined text-[#E63900] text-[18px]" aria-hidden="true">timer</span>
               </div>
               <div>
@@ -105,8 +98,8 @@ export function Hero() {
               </div>
             </div>
 
-            <div className="absolute bottom-6 right-6 bg-white rounded-[12px] border border-[#E5E7EB] px-4 py-3 flex items-center gap-3 shadow-sm">
-              <div className="w-9 h-9 rounded-full bg-[#F8F9FA] flex items-center justify-center">
+            <div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur-sm rounded-[12px] border border-[#E5E7EB] px-4 py-3 flex items-center gap-3 shadow-sm">
+              <div className="w-9 h-9 rounded-full bg-[#FFF0EB] flex items-center justify-center">
                 <span className="material-symbols-outlined text-[#E63900] text-[18px]" aria-hidden="true">verified</span>
               </div>
               <div>

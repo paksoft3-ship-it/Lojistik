@@ -32,6 +32,8 @@ export default function IletisimPage() {
           { label: "İletişim" },
         ]}
         badge="Bize Ulaşın"
+        imageUrl="/images/about-us.png"
+        imageAlt="İletişim"
       />
 
       <section className="py-14">

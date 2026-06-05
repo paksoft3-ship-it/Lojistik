@@ -11,6 +11,7 @@ export interface BlogPost {
   readTime: number;
   metaTitle: string;
   metaDescription: string;
+  imageUrl: string;
   imageAlt: string;
 }
 
@@ -28,6 +29,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "İstanbul Parça Eşya Taşıma Avantajları | UluLojistik Blog",
     metaDescription:
       "İstanbul içi parça eşya taşımacılığında minivan kullanmanın avantajları. Ekonomik, hızlı ve pratik çözümler hakkında bilgi alın.",
+    imageUrl: "/images/blog-parca-esya.png",
     imageAlt: "İstanbul sokaklarında beyaz minivan nakliye aracı",
   },
   {
@@ -43,6 +45,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "Öğrenci Evi Taşıma Rehberi İstanbul | UluLojistik Blog",
     metaDescription:
       "İstanbul'da öğrenci evi taşımak için pratik ipuçları ve bütçe dostu minivan nakliye seçenekleri.",
+    imageUrl: "/images/blog-ogrenci-rehber.png",
     imageAlt: "Öğrenci eşyaları ve kolilerle dolu minivan",
   },
   {
@@ -58,6 +61,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "Yük Taksi Nedir? İstanbul'da Nasıl Çağrılır? | UluLojistik",
     metaDescription:
       "İstanbul yük taksi sistemi, nasıl çalışır ve nasıl çağrılır. Minivan yük taksi avantajları ve fiyatlandırma bilgisi.",
+    imageUrl: "/images/blog-yuk-taksi.png",
     imageAlt: "İstanbul şehir içinde minivan yük taksi hizmeti",
   },
   {
@@ -73,6 +77,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "Beyaz Eşya Taşıma Rehberi | Güvenli Nakliye İpuçları",
     metaDescription:
       "Beyaz eşya taşırken dikkat edilmesi gerekenler. Buzdolabı, çamaşır makinesi taşıma rehberi ve güvenli nakliye ipuçları.",
+    imageUrl: "/images/blog-beyaz-esya.png",
     imageAlt: "Beyaz eşya taşıma için hazırlanan minivan aracı",
   },
 ];

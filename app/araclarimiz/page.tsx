@@ -5,6 +5,7 @@ import { InnerHero } from "@/components/sections/InnerHero";
 import { BottomCTA } from "@/components/sections/BottomCTA";
 import { QuickQuoteForm } from "@/components/sections/QuickQuoteForm";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Minivan Araçlarımız | İstanbul İçi Nakliye Filosu – UluLojistik",
@@ -80,6 +81,8 @@ export default function AraclarimizPage() {
         badge="İstanbul İçi Minivan Araçlar"
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Hizmetlerimiz", href: "/hizmetler" }}
+        imageUrl="/images/service-minivan.png"
+        imageAlt="Minivan Araçlarımız"
       />
 
       {/* Featured vehicle card */}
@@ -87,14 +90,14 @@ export default function AraclarimizPage() {
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#F8F9FA] border border-[#E5E7EB] rounded-[20px] p-8 md:p-10">
             {/* Vehicle visual */}
-            <div className="flex items-center justify-center bg-white rounded-[14px] border border-[#E5E7EB] p-10 min-h-[220px]">
-              <span
-                className="material-symbols-outlined text-[#E63900] opacity-30"
-                style={{ fontSize: "100px" }}
-                aria-hidden="true"
-              >
-                airport_shuttle
-              </span>
+            <div className="relative w-full h-[260px] bg-white rounded-[14px] border border-[#E5E7EB] overflow-hidden">
+              <Image
+                src="/images/service-minivan.png"
+                alt="Standart Kapalı Kasa Minivan"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
             {/* Specs */}
             <div>

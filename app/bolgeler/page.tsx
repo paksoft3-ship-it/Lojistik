@@ -42,6 +42,8 @@ export default function BolgerPage() {
         ]}
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge="Sadece İstanbul İçi"
+        imageUrl="/images/service-minivan.png"
+        imageAlt="İstanbul'un Her İlçesine Minivan Nakliye"
       />
 
       {/* Region cards */}

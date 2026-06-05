@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog";
 import { Container } from "@/components/ui/Container";
@@ -68,6 +69,18 @@ export default async function BlogDetailPage({ params }: Props) {
               ]}
               className="mb-8"
             />
+
+            {/* Post Image */}
+            <div className="relative w-full h-[240px] sm:h-[360px] rounded-[16px] overflow-hidden mb-8 border border-[#E5E7EB]">
+              <Image
+                src={post.imageUrl || "/images/blog-hero.png"}
+                alt={post.imageAlt || post.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 768px"
+                priority
+              />
+            </div>
 
             <header className="mb-10">
               <div className="flex items-center gap-3 mb-4">

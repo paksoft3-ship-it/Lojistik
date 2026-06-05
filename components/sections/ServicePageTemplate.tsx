@@ -1,6 +1,7 @@
 import { InnerHero } from "./InnerHero";
 import { QuickQuoteForm } from "./QuickQuoteForm";
 import { WhyMinivan } from "./WhyMinivan";
+import Image from "next/image";
 import { TransportItemsGrid } from "./TransportItemsGrid";
 import { UrgentCTA } from "./UrgentCTA";
 import { Testimonials } from "./Testimonials";
@@ -49,6 +50,8 @@ export function ServicePageTemplate({ service }: ServicePageTemplateProps) {
         primaryCTA={{ label: "Hemen Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "WhatsApp'tan Yaz", href: "#whatsapp" }}
         badge={`İstanbul İçi ${service.shortTitle}`}
+        imageUrl={service.imageUrl}
+        imageAlt={service.title}
       />
 
       {/* Quick Quote */}
@@ -126,13 +129,14 @@ export function ServicePageTemplate({ service }: ServicePageTemplateProps) {
                 ))}
               </ul>
             </div>
-            <div className="bg-white/10 rounded-[14px] p-8 text-center">
-              <span className="material-symbols-outlined text-[80px] text-[#E63900] opacity-40" aria-hidden="true">
-                airport_shuttle
-              </span>
-              <p className="text-gray-300 mt-4 text-sm">
-                Panelvan ve Minivan araçlarımızla İstanbul içi hizmetinizdeyiz.
-              </p>
+            <div className="relative h-[240px] rounded-[14px] overflow-hidden border border-white/10">
+              <Image
+                src={service.imageUrl}
+                alt={service.title}
+                fill
+                className="object-cover opacity-80"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
           </div>
         </Container>

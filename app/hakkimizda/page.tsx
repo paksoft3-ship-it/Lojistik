@@ -4,6 +4,7 @@ import { Container } from "@/components/ui/Container";
 import { InnerHero } from "@/components/sections/InnerHero";
 import { BottomCTA } from "@/components/sections/BottomCTA";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Hakkımızda | İstanbul İçi Minivan Nakliye – UluLojistik",
@@ -61,6 +62,8 @@ export default function HakkimizdaPage() {
         badge="İstanbul İçi Minivan Nakliye"
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Hizmetlerimiz", href: "/hizmetler" }}
+        imageUrl="/images/about-us.png"
+        imageAlt="Hakkımızda"
       />
 
       {/* Trust badges + visual */}
@@ -91,21 +94,22 @@ export default function HakkimizdaPage() {
             </div>
 
             {/* Right: Visual with floating cards */}
-            <div className="relative flex items-center justify-center h-[300px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
-              <span
-                className="material-symbols-outlined text-[#E63900] opacity-20"
-                style={{ fontSize: "120px" }}
-                aria-hidden="true"
-              >
-                airport_shuttle
-              </span>
+            <div className="relative h-[300px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
+              <Image
+                src="/images/about-us.png"
+                alt="İstanbul'un her ilçesine minivan hizmeti"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-black/10 pointer-events-none" />
               {/* Floating card 1 */}
-              <div className="absolute top-6 left-6 bg-white border border-[#E5E7EB] rounded-[12px] px-4 py-3 shadow-sm">
+              <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm border border-[#E5E7EB] rounded-[12px] px-4 py-3 shadow-sm">
                 <p className="text-xs font-bold text-[#111827]">İstanbul Odaklı</p>
                 <p className="text-xs text-[#6B7280]">Tüm ilçelerde</p>
               </div>
               {/* Floating card 2 */}
-              <div className="absolute bottom-6 right-6 bg-white border border-[#E5E7EB] rounded-[12px] px-4 py-3 shadow-sm">
+              <div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur-sm border border-[#E5E7EB] rounded-[12px] px-4 py-3 shadow-sm">
                 <p className="text-xs font-bold text-[#111827]">Pratik Taşıma</p>
                 <p className="text-xs text-[#6B7280]">Hızlı ve güvenli</p>
               </div>

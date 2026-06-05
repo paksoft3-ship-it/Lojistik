@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { avrupa } from "@/data/districts";
 import { Container } from "@/components/ui/Container";
@@ -34,8 +35,17 @@ export default function AvrupaYakasiPage() {
       />
 
       {/* Hero section with inline QuoteForm */}
-      <section className="py-12 md:py-16 bg-white border-b border-[#E5E7EB]">
-        <Container>
+      <section className="relative py-12 md:py-16 bg-white border-b border-[#E5E7EB] overflow-hidden">
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <Image
+            src="/images/region-avrupa.png"
+            alt="Avrupa Yakası Minivan Nakliye"
+            fill
+            className="object-cover opacity-15"
+            priority
+          />
+        </div>
+        <Container className="relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
             {/* Left: hero content */}
             <div className="lg:col-span-7 space-y-5">

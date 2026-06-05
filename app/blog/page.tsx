@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { blogPosts } from "@/data/blog";
 import { Container } from "@/components/ui/Container";
@@ -102,6 +103,8 @@ export default function BlogPage() {
           { label: "Blog" },
         ]}
         badge="Nakliye Rehberi"
+        imageUrl="/images/blog-hero.png"
+        imageAlt="Blog / İstanbul Minivan Nakliye Rehberi"
       />
 
       <section className="py-12">
@@ -145,15 +148,15 @@ export default function BlogPage() {
               {/* Featured article */}
               <div className="bg-white border border-[#E5E7EB] rounded-[16px] overflow-hidden hover:border-[#E63900] hover:shadow-sm transition-all">
                 <div className="grid grid-cols-1 sm:grid-cols-2">
-                  {/* Image placeholder */}
-                  <div className="flex items-center justify-center bg-[#F8F9FA] min-h-[200px]">
-                    <span
-                      className="material-symbols-outlined text-[#E63900] opacity-30"
-                      style={{ fontSize: "72px" }}
-                      aria-hidden="true"
-                    >
-                      airport_shuttle
-                    </span>
+                  {/* Image */}
+                  <div className="relative min-h-[200px] w-full bg-[#F8F9FA]">
+                    <Image
+                      src={featuredPost.imageUrl || "/images/blog-hero.png"}
+                      alt={featuredPost.imageAlt || featuredPost.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 40vw"
+                    />
                   </div>
                   {/* Content */}
                   <div className="p-6 flex flex-col justify-center">
