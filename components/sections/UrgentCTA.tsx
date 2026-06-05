@@ -39,7 +39,7 @@ export function UrgentCTA() {
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium px-6 py-3 rounded-[8px] transition-colors whitespace-nowrap min-h-[44px]"
               aria-label="WhatsApp ile iletişime geçin"
             >
-              <WhatsAppIcon size={20} className="brightness-0 invert" />
+              <WhatsAppIcon size={20} variant="white" />
               WhatsApp
             </Link>
           </div>

@@ -122,21 +122,24 @@ export function MobileMenu({
                 onClose();
               }}
             >
-              <WhatsAppIcon size={18} className="brightness-0 invert" />
+              <WhatsAppIcon size={18} variant="white" />
               WhatsApp&apos;tan Yaz
             </Link>
             <Link
               href={siteConfig.phoneHref}
               className="flex items-center justify-center gap-2 w-full py-3 border border-[#E5E7EB] text-[#111827] font-medium rounded-[8px] hover:bg-[#F8F9FA] transition-colors"
-              onClick={() => {
-                trackPhoneClick("mobile_menu");
-                onClose();
-              }}
+              onClick={() => { trackPhoneClick("mobile_menu"); onClose(); }}
             >
-              <span className="material-symbols-outlined text-[18px]" aria-hidden="true">
-                phone
-              </span>
+              <span className="material-symbols-outlined text-[18px]" aria-hidden="true">phone</span>
               {siteConfig.phone}
+            </Link>
+            <Link
+              href={siteConfig.phoneHref2}
+              className="flex items-center justify-center gap-2 w-full py-3 border border-[#E5E7EB] text-[#111827] font-medium rounded-[8px] hover:bg-[#F8F9FA] transition-colors"
+              onClick={() => { trackPhoneClick("mobile_menu"); onClose(); }}
+            >
+              <span className="material-symbols-outlined text-[18px]" aria-hidden="true">phone</span>
+              {siteConfig.phone2}
             </Link>
           </div>
         </nav>

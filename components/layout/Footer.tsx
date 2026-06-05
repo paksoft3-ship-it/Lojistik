@@ -35,6 +35,16 @@ export function Footer() {
                 {siteConfig.phone}
               </Link>
               <Link
+                href={siteConfig.phoneHref2}
+                className="flex items-center gap-2 text-gray-400 hover:text-[#E63900] transition-colors"
+                aria-label={`Telefon: ${siteConfig.phone2}`}
+              >
+                <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
+                  phone
+                </span>
+                {siteConfig.phone2}
+              </Link>
+              <Link
                 href={siteConfig.whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"

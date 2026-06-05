@@ -38,7 +38,7 @@ export function BottomCTA({
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold px-8 py-4 rounded-[8px] transition-colors active:scale-95 min-h-[52px]"
               aria-label="WhatsApp ile iletişime geçin"
             >
-              <WhatsAppIcon size={20} className="brightness-0 invert" />
+              <WhatsAppIcon size={20} variant="white" />
               WhatsApp&apos;tan Yazın
             </Link>
           </div>

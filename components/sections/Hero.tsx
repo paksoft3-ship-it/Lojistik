@@ -51,7 +51,7 @@ export function Hero() {
                 className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium text-[16px] px-8 py-4 rounded-[8px] transition-colors active:scale-95 min-h-[52px]"
                 aria-label="WhatsApp ile teklif alın"
               >
-                <WhatsAppIcon size={20} className="brightness-0 invert" />
+                <WhatsAppIcon size={20} variant="white" />
                 WhatsApp&apos;tan Yaz
               </Link>
             </div>

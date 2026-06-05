@@ -38,15 +38,16 @@ export default function IletisimPage() {
         <Container>
           {/* Contact cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
-            {/* Phone */}
+            {/* Phone 1 */}
             <Link
               href={siteConfig.phoneHref}
               className="bg-white border border-[#E5E7EB] rounded-[14px] p-6 flex flex-col items-center text-center gap-3 hover:border-[#E63900] transition-colors"
             >
               <span className="material-symbols-outlined text-[32px] text-[#E63900]" aria-hidden="true">phone</span>
               <div>
-                <p className="font-semibold text-[#111827] mb-0.5">Telefon</p>
+                <p className="font-semibold text-[#111827] mb-0.5">Hat 1</p>
                 <p className="text-sm font-medium text-[#E63900]">{siteConfig.phone}</p>
+                <p className="text-sm font-medium text-[#E63900]">{siteConfig.phone2}</p>
                 <p className="text-xs text-[#9CA3AF] mt-1">7/24 hizmet hattı</p>
               </div>
             </Link>
@@ -117,7 +118,7 @@ export default function IletisimPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium px-5 py-2.5 rounded-[8px] text-sm transition-colors"
                 >
-                  <WhatsAppIcon size={16} className="brightness-0 invert" />
+                  <WhatsAppIcon size={16} variant="white" />
                   WhatsApp&apos;tan Yaz
                 </Link>
               </div>

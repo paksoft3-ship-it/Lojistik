@@ -78,7 +78,7 @@ export default function TeklifAlPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium px-5 py-2.5 rounded-[8px] text-sm transition-colors w-full justify-center"
                   >
-                    <WhatsAppIcon size={16} className="brightness-0 invert" />
+                    <WhatsAppIcon size={16} variant="white" />
                     WhatsApp&apos;tan Yaz
                   </Link>
                 </div>

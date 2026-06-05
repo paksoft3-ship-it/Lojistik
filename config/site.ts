@@ -4,6 +4,8 @@ export const siteConfig = {
   email: "info@ululojistik.com",
   phone: "0543 811 19 84",
   phoneHref: "tel:+905438111984",
+  phone2: "0541 287 83 31",
+  phoneHref2: "tel:+905412878331",
   whatsappNumber: "905438111984",
   get whatsappHref() {
     return `https://wa.me/${this.whatsappNumber}?text=Merhaba,%20minivan%20nakliye%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.`;

@@ -30,6 +30,17 @@ export function TopBar() {
             {siteConfig.phone}
           </Link>
           <Link
+            href={siteConfig.phoneHref2}
+            className="flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors"
+            onClick={() => trackPhoneClick("topbar")}
+            aria-label={`Bizi arayın: ${siteConfig.phone2}`}
+          >
+            <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
+              phone
+            </span>
+            {siteConfig.phone2}
+          </Link>
+          <Link
             href={siteConfig.whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
