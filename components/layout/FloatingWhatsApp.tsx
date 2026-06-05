@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { trackWhatsAppClick } from "@/lib/tracking";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export function FloatingWhatsApp() {
   return (
@@ -10,13 +11,11 @@ export function FloatingWhatsApp() {
       href={siteConfig.whatsappHref}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 hidden md:flex items-center justify-center w-14 h-14 bg-[#16A34A] hover:bg-[#15803D] text-white rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95"
+      className="fixed bottom-6 right-6 z-50 hidden md:flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110 active:scale-95"
       onClick={() => trackWhatsAppClick("floating_button")}
       aria-label="WhatsApp ile iletişime geçin"
     >
-      <span className="material-symbols-outlined text-[28px] filled" aria-hidden="true">
-        chat
-      </span>
+      <WhatsAppIcon size={56} />
     </Link>
   );
 }
@@ -43,14 +42,12 @@ export function MobileBottomNav() {
           href={siteConfig.whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center justify-center gap-0.5 px-3 py-1 min-w-[64px] min-h-[44px] text-[#16A34A] hover:text-green-700 transition-colors"
+          className="flex flex-col items-center justify-center gap-0.5 px-3 py-1 min-w-[64px] min-h-[44px] hover:opacity-80 transition-opacity"
           onClick={() => trackWhatsAppClick("mobile_bottom_nav")}
           aria-label="WhatsApp ile iletişime geçin"
         >
-          <span className="material-symbols-outlined filled text-[22px]" aria-hidden="true">
-            chat
-          </span>
-          <span className="text-[10px] font-medium">WhatsApp</span>
+          <WhatsAppIcon size={22} />
+          <span className="text-[10px] font-medium text-[#25D366]">WhatsApp</span>
         </Link>
         <Link
           href="/teklif-al"

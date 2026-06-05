@@ -2,9 +2,9 @@ export const siteConfig = {
   brandName: "UluLojistik",
   domain: "https://ululojistik.com",
   email: "info@ululojistik.com",
-  phone: "0850 123 45 67",
-  phoneHref: "tel:+908501234567",
-  whatsappNumber: "905850123456", // Replace with real WhatsApp number
+  phone: "0543 811 19 84",
+  phoneHref: "tel:+905438111984",
+  whatsappNumber: "905438111984",
   get whatsappHref() {
     return `https://wa.me/${this.whatsappNumber}?text=Merhaba,%20minivan%20nakliye%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.`;
   },
@@ -31,9 +31,12 @@ export const siteConfig = {
     youtube: "",
   },
   address: {
+    street: "Fevzi Çakmak Mah. Girne Cad. No: 40 A",
+    district: "Pendik",
     city: "İstanbul",
     country: "TR",
     countryName: "Türkiye",
+    full: "Fevzi Çakmak Mah. Girne Cad. No: 40 A, Pendik / İstanbul",
   },
   openingHours: "Mo-Su 07:00-23:00",
   priceRange: "₺₺",

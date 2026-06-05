@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { footerNav } from "@/data/navigation";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -37,13 +38,11 @@ export function Footer() {
                 href={siteConfig.whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-[#16A34A] hover:text-green-400 transition-colors"
+                className="flex items-center gap-2 hover:opacity-80 transition-opacity"
                 aria-label="WhatsApp ile iletişime geçin"
               >
-                <span className="material-symbols-outlined text-[16px] filled" aria-hidden="true">
-                  chat
-                </span>
-                WhatsApp
+                <WhatsAppIcon size={16} />
+                <span className="text-[#25D366]">WhatsApp</span>
               </Link>
               <Link
                 href={`mailto:${siteConfig.email}`}
@@ -54,11 +53,11 @@ export function Footer() {
                 </span>
                 {siteConfig.email}
               </Link>
-              <p className="flex items-center gap-2 text-gray-400">
-                <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
+              <p className="flex items-start gap-2 text-gray-400">
+                <span className="material-symbols-outlined text-[16px] mt-0.5 shrink-0" aria-hidden="true">
                   location_on
                 </span>
-                {siteConfig.address.city}, {siteConfig.address.countryName}
+                <span>{siteConfig.address.full}</span>
               </p>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { Container } from "@/components/ui/Container";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export default function NotFound() {
   return (
@@ -34,9 +35,9 @@ export default function NotFound() {
               href={siteConfig.whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#16A34A] hover:bg-[#15803D] text-white font-medium px-6 py-3 rounded-[8px] transition-colors min-h-[44px]"
+              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium px-6 py-3 rounded-[8px] transition-colors min-h-[44px]"
             >
-              <span className="material-symbols-outlined filled text-[20px]" aria-hidden="true">chat</span>
+              <WhatsAppIcon size={20} className="brightness-0 invert" />
               WhatsApp
             </Link>
           </div>

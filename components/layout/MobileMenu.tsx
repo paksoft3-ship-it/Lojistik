@@ -5,6 +5,7 @@ import { mainNav, ctaNav } from "@/data/navigation";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
 import { trackPhoneClick, trackWhatsAppClick } from "@/lib/tracking";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export function MobileMenuButton({ onClick }: { onClick: () => void }) {
   return (
@@ -115,15 +116,13 @@ export function MobileMenu({
               href={siteConfig.whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-3 bg-[#16A34A] hover:bg-[#15803D] text-white font-medium rounded-[8px] transition-colors"
+              className="flex items-center justify-center gap-2 w-full py-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium rounded-[8px] transition-colors"
               onClick={() => {
                 trackWhatsAppClick("mobile_menu");
                 onClose();
               }}
             >
-              <span className="material-symbols-outlined filled text-[18px]" aria-hidden="true">
-                chat
-              </span>
+              <WhatsAppIcon size={18} className="brightness-0 invert" />
               WhatsApp&apos;tan Yaz
             </Link>
             <Link

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { Container } from "@/components/ui/Container";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 interface BottomCTAProps {
   title?: string;
@@ -34,10 +35,10 @@ export function BottomCTA({
               href={siteConfig.whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#16A34A] hover:bg-[#15803D] text-white font-semibold px-8 py-4 rounded-[8px] transition-colors active:scale-95 min-h-[52px]"
+              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold px-8 py-4 rounded-[8px] transition-colors active:scale-95 min-h-[52px]"
               aria-label="WhatsApp ile iletişime geçin"
             >
-              <span className="material-symbols-outlined filled text-[20px]" aria-hidden="true">chat</span>
+              <WhatsAppIcon size={20} className="brightness-0 invert" />
               WhatsApp&apos;tan Yazın
             </Link>
           </div>

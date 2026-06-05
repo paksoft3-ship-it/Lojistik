@@ -4,6 +4,7 @@ import Link from "next/link";
 import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Container } from "@/components/ui/Container";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export const metadata: Metadata = {
   title: "Fiyat Teklifi Al | İstanbul Minivan Nakliye",
@@ -68,15 +69,16 @@ export default function TeklifAlPage() {
 
                 {/* WhatsApp alternative */}
                 <div className="bg-[#F0FDF4] border border-[#BBF7D0] rounded-[14px] p-6 text-center">
-                  <span className="material-symbols-outlined filled text-[#16A34A] text-[32px] mb-3" aria-hidden="true">chat</span>
+                  <div className="flex justify-center mb-3"><WhatsAppIcon size={32} /></div>
                   <p className="font-medium text-[#111827] mb-1">WhatsApp ile Teklif</p>
                   <p className="text-sm text-[#6B7280] mb-4">Formsuz, direkt mesajlaşarak teklif alın</p>
                   <Link
                     href={siteConfig.whatsappHref}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-[#16A34A] hover:bg-[#15803D] text-white font-medium px-5 py-2.5 rounded-[8px] text-sm transition-colors w-full justify-center"
+                    className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-medium px-5 py-2.5 rounded-[8px] text-sm transition-colors w-full justify-center"
                   >
+                    <WhatsAppIcon size={16} className="brightness-0 invert" />
                     WhatsApp&apos;tan Yaz
                   </Link>
                 </div>

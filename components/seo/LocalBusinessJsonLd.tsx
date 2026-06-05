@@ -24,7 +24,9 @@ export function LocalBusinessJsonLd() {
     },
     address: {
       "@type": "PostalAddress",
-      addressLocality: siteConfig.address.city,
+      streetAddress: siteConfig.address.street,
+      addressLocality: `${siteConfig.address.district}, ${siteConfig.address.city}`,
+      addressRegion: siteConfig.address.city,
       addressCountry: siteConfig.address.country,
     },
     areaServed: {
