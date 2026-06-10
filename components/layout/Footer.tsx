@@ -3,6 +3,8 @@ import { siteConfig } from "@/config/site";
 import { footerNav } from "@/data/navigation";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
+import Image from "next/image";
+
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -14,10 +16,10 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link
               href="/"
-              className="text-xl font-bold text-white tracking-tight block mb-4"
+              className="block mb-6 transition-opacity hover:opacity-90 bg-white rounded-md p-2 inline-block w-fit"
               aria-label="Ülkü Lojistik Ana Sayfa"
             >
-              <span className="text-[#E63900]">Ulu</span>Lojistik
+              <Image src="/logo.png" alt="Ülkü Lojistik Logo" width={210} height={70} className="h-10 w-auto object-contain" />
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
               İstanbul içi parça eşya, koli, beyaz eşya ve öğrenci eşyası

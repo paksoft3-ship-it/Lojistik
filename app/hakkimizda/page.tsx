@@ -62,7 +62,7 @@ export default function HakkimizdaPage() {
         badge="İstanbul İçi Panelvan Nakliye"
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Hizmetlerimiz", href: "/hizmetler" }}
-        imageUrl="/updatedimage/2.jpeg"
+        imageUrl="/Updatedimage/2.jpeg"
         imageAlt="Hakkımızda"
       />
 
@@ -96,7 +96,7 @@ export default function HakkimizdaPage() {
             {/* Right: Visual with floating cards */}
             <div className="relative h-[300px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
               <Image
-                src="/updatedimage/2.jpeg"
+                src="/Updatedimage/2.jpeg"
                 alt="İstanbul'un her ilçesine panelvan hizmeti"
                 fill
                 className="object-cover"

@@ -78,7 +78,7 @@ export function Hero() {
           {/* Right: Visual */}
           <div className="relative h-[360px] lg:h-[460px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
             <Image
-              src="/updatedimage/Hero.jpeg"
+              src="/Updatedimage/Hero.jpeg"
               alt="İstanbul içi hızlı panelvan nakliye"
               fill
               className="object-cover"

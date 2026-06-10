@@ -38,7 +38,7 @@ export default function AvrupaYakasiPage() {
       <section className="relative py-12 md:py-16 bg-white border-b border-[#E5E7EB] overflow-hidden">
         <div className="absolute inset-0 z-0 pointer-events-none">
           <Image
-            src="/updatedimage/2.jpeg"
+            src="/Updatedimage/2.jpeg"
             alt="Avrupa Yakası Panelvan Nakliye"
             fill
             className="object-cover opacity-15"

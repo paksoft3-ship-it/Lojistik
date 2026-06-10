@@ -50,7 +50,7 @@ export default async function DistrictPage({ params }: Props) {
       : "/bolgeler/anadolu-yakasi-panelvan-nakliye";
 
   const regionImage =
-    district.side === "avrupa" ? "/updatedimage/2.jpeg" : "/updatedimage/1.jpeg";
+    district.side === "avrupa" ? "/Updatedimage/2.jpeg" : "/Updatedimage/1.jpeg";
 
   const nearbyDistricts = allDistricts
     .filter((d) => d.side === district.side && d.slug !== slug)

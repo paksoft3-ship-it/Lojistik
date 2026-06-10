@@ -26,7 +26,7 @@ export function BlogCard({ post, className }: BlogCardProps) {
       {/* Image */}
       <div className="relative h-44 w-full bg-[#F8F9FA] border-b border-[#E5E7EB] overflow-hidden">
         <Image
-          src={post.imageUrl || "/updatedimage/2.jpeg"}
+          src={post.imageUrl || "/Updatedimage/2.jpeg"}
           alt={post.imageAlt || post.title}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"

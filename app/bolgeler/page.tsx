@@ -42,7 +42,7 @@ export default function BolgerPage() {
         ]}
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge="Sadece İstanbul İçi"
-        imageUrl="/updatedimage/2.jpeg"
+        imageUrl="/Updatedimage/2.jpeg"
         imageAlt="İstanbul'un Her İlçesine Panelvan Nakliye"
       />
 

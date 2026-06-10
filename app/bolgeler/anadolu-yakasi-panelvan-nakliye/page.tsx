@@ -40,7 +40,7 @@ export default function AnadoluYakasiPage() {
         ]}
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge="Anadolu Yakası"
-        imageUrl="/updatedimage/1.jpeg"
+        imageUrl="/Updatedimage/1.jpeg"
         imageAlt="Anadolu Yakası Panelvan Nakliye"
       />
 

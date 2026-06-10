@@ -32,7 +32,7 @@ export default function IletisimPage() {
           { label: "İletişim" },
         ]}
         badge="Bize Ulaşın"
-        imageUrl="/updatedimage/2.jpeg"
+        imageUrl="/Updatedimage/2.jpeg"
         imageAlt="İletişim"
       />
 

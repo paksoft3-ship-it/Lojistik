@@ -103,7 +103,7 @@ export default function BlogPage() {
           { label: "Blog" },
         ]}
         badge="Nakliye Rehberi"
-        imageUrl="/updatedimage/1.jpeg"
+        imageUrl="/Updatedimage/1.jpeg"
         imageAlt="Blog / İstanbul Panelvan Nakliye Rehberi"
       />
 
@@ -151,7 +151,7 @@ export default function BlogPage() {
                   {/* Image */}
                   <div className="relative min-h-[200px] w-full bg-[#F8F9FA]">
                     <Image
-                      src={featuredPost.imageUrl || "/updatedimage/2.jpeg"}
+                      src={featuredPost.imageUrl || "/Updatedimage/2.jpeg"}
                       alt={featuredPost.imageAlt || featuredPost.title}
                       fill
                       className="object-cover"

@@ -7,6 +7,8 @@ import { mainNav, ctaNav } from "@/data/navigation";
 import { cn } from "@/lib/utils";
 import { MobileMenu, MobileMenuButton } from "./MobileMenu";
 
+import Image from "next/image";
+
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
@@ -18,10 +20,10 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl font-bold tracking-tight text-[#111827] shrink-0"
+            className="shrink-0 transition-opacity hover:opacity-90"
             aria-label="Ülkü Lojistik - Ana Sayfa"
           >
-            <span className="text-[#E63900]">Ulu</span>Lojistik
+            <Image src="/logo.png" alt="Ülkü Lojistik Logo" width={240} height={80} className="h-10 md:h-12 w-auto object-contain" priority />
           </Link>
 
           {/* Desktop Nav */}

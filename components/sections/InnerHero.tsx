@@ -71,7 +71,7 @@ export function InnerHero({
           {/* Visual */}
           <div className="hidden md:block relative h-[280px] rounded-[14px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
             <Image
-              src={imageUrl || "/updatedimage/1.jpeg"}
+              src={imageUrl || "/Updatedimage/1.jpeg"}
               alt={imageAlt || title}
               fill
               className="object-cover"

@@ -27,7 +27,7 @@ export const services: Service[] = [
       "İstanbul içi tüm ilçeler arası hızlı, güvenilir ve ekonomik panelvan taşımacılığı. Köprü yasaklarına takılmadan, dar sokaklara rahatça giren panelvanlarımızla eşyalarınızı güvenle taşıyoruz.",
     shortDescription:
       "Tüm ilçeler arası hızlı, panelvan araçlarla direkt teslimat.",
-    imageUrl: "/updatedimage/1.jpeg",
+    imageUrl: "/Updatedimage/1.jpeg",
     icon: "local_shipping",
     href: "/hizmetler/istanbul-panelvan-nakliye",
     features: [
@@ -110,7 +110,7 @@ export const services: Service[] = [
       "Taksi mantığıyla çalışan, İstanbul içinde hızlı çağrılabilen hafif ticari araçlarımızla yük taşıma hizmeti. Taksi gibi çağırın, yükünüzü kapıdan kapıya taşıyalım.",
     shortDescription:
       "Taksi mantığıyla çalışan, hızlı çağrılabilen hafif ticari araçlar.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     icon: "local_taxi",
     href: "/hizmetler/istanbul-yuk-taksi",
     features: [
@@ -190,7 +190,7 @@ export const services: Service[] = [
       "1 koli ya da 10 koli fark etmez. İstanbul içinde küçük yükleriniz için ekonomik panelvan çözümü. Büyük nakliye araçlarına gerek duymadan hızlı taşıma.",
     shortDescription:
       "Büyük nakliye aracı gerektirmeyen az miktardaki eşyalarınız için.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     icon: "inventory_2",
     href: "/hizmetler/kucuk-yuk-tasima",
     features: [
@@ -269,7 +269,7 @@ export const services: Service[] = [
     description:
       "Koltuk, dolap, masa gibi tekil büyük eşyalarınızı İstanbul içinde güvenle taşıyoruz. Sabitleme ve koruma malzemeleriyle hasarsız teslimat garantisi.",
     shortDescription: "1-2 parça mobilya veya eşyanın güvenle taşınması.",
-    imageUrl: "/updatedimage/1.jpeg",
+    imageUrl: "/Updatedimage/1.jpeg",
     icon: "chair",
     href: "/hizmetler/parca-esya-tasima",
     features: [
@@ -349,7 +349,7 @@ export const services: Service[] = [
       "Buzdolabı, çamaşır makinesi, fırın gibi hassas beyaz eşyalarınızı İstanbul içinde güvenle taşıyoruz. Dik taşıma garantisi ve özel koruma malzemeleriyle hasarsız teslimat.",
     shortDescription:
       "Buzdolabı, çamaşır makinesi gibi eşyaların hasarsız nakliyesi.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     icon: "kitchen",
     href: "/hizmetler/beyaz-esya-tasima",
     features: [
@@ -429,7 +429,7 @@ export const services: Service[] = [
       "Öğrenci bütçesine uygun, hızlı ve güvenilir ev ve yurt taşıma hizmeti. Valiz, koli, küçük mobilyalar ve oda eşyalarınızı İstanbul içinde kolayca taşıyoruz.",
     shortDescription:
       "Öğrenciler için uygun fiyatlı yurt veya ev taşıma çözümleri.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     icon: "school",
     href: "/hizmetler/ogrenci-esyasi-tasima",
     features: [
@@ -509,7 +509,7 @@ export const services: Service[] = [
       "Küçük ölçekli ofis taşımaları, mağaza içi transferler ve iş yeri malzeme sevkiyatları için İstanbul içi panelvan hizmeti. Kurumsal fatura ve düzenli sevkiyat planı.",
     shortDescription:
       "Küçük ölçekli ofis taşımaları ve mağaza içi transferler.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     icon: "storefront",
     href: "/hizmetler/ofis-magaza-urunu-tasima",
     features: [
@@ -589,7 +589,7 @@ export const services: Service[] = [
       "Beklemek istemeyenler için İstanbul'un her noktasına 60 dakika içinde araç yönlendiriyoruz. 7/24 acil panelvan nakliye hizmeti.",
     shortDescription:
       "Beklemek istemeyenler için en hızlı VIP gönderi hizmeti.",
-    imageUrl: "/updatedimage/1.jpeg",
+    imageUrl: "/Updatedimage/1.jpeg",
     icon: "emergency",
     href: "/hizmetler/acil-panelvan-nakliye",
     features: [

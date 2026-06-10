@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "İstanbul Parça Eşya Taşıma Avantajları | Ülkü Lojistik Blog",
     metaDescription:
       "İstanbul içi parça eşya taşımacılığında panelvan kullanmanın avantajları. Ekonomik, hızlı ve pratik çözümler hakkında bilgi alın.",
-    imageUrl: "/updatedimage/1.jpeg",
+    imageUrl: "/Updatedimage/1.jpeg",
     imageAlt: "İstanbul sokaklarında beyaz panelvan nakliye aracı",
   },
   {
@@ -45,7 +45,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "Öğrenci Evi Taşıma Rehberi İstanbul | Ülkü Lojistik Blog",
     metaDescription:
       "İstanbul'da öğrenci evi taşımak için pratik ipuçları ve bütçe dostu panelvan nakliye seçenekleri.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     imageAlt: "Öğrenci eşyaları ve kolilerle dolu panelvan",
   },
   {
@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "Yük Taksi Nedir? İstanbul'da Nasıl Çağrılır? | Ülkü Lojistik",
     metaDescription:
       "İstanbul yük taksi sistemi, nasıl çalışır ve nasıl çağrılır. Panelvan yük taksi avantajları ve fiyatlandırma bilgisi.",
-    imageUrl: "/updatedimage/1.jpeg",
+    imageUrl: "/Updatedimage/1.jpeg",
     imageAlt: "İstanbul şehir içinde panelvan yük taksi hizmeti",
   },
   {
@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: "Beyaz Eşya Taşıma Rehberi | Güvenli Nakliye İpuçları",
     metaDescription:
       "Beyaz eşya taşırken dikkat edilmesi gerekenler. Buzdolabı, çamaşır makinesi taşıma rehberi ve güvenli nakliye ipuçları.",
-    imageUrl: "/updatedimage/2.jpeg",
+    imageUrl: "/Updatedimage/2.jpeg",
     imageAlt: "Beyaz eşya taşıma için hazırlanan panelvan aracı",
   },
 ];

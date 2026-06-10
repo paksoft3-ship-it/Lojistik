@@ -81,7 +81,7 @@ export default function AraclarimizPage() {
         badge="İstanbul İçi Panelvan Araçlar"
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Hizmetlerimiz", href: "/hizmetler" }}
-        imageUrl="/updatedimage/1.jpeg"
+        imageUrl="/Updatedimage/1.jpeg"
         imageAlt="Panelvan Araçlarımız"
       />
 
@@ -92,7 +92,7 @@ export default function AraclarimizPage() {
             {/* Vehicle visual */}
             <div className="relative w-full h-[260px] bg-white rounded-[14px] border border-[#E5E7EB] overflow-hidden">
               <Image
-                src="/updatedimage/1.jpeg"
+                src="/Updatedimage/1.jpeg"
                 alt="Standart Kapalı Kasa Panelvan"
                 fill
                 className="object-cover"
