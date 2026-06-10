@@ -9,8 +9,8 @@ const steps = [
   },
   {
     step: 2,
-    title: "Minivan Planlama",
-    description: "Size en uygun minivan aracımızı ve anında fiyat teklifini sunalım.",
+    title: "Panelvan Planlama",
+    description: "Size en uygun panelvan aracımızı ve anında fiyat teklifini sunalım.",
   },
   {
     step: 3,

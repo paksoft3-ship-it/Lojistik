@@ -35,7 +35,7 @@ interface WhyMinivanProps {
 }
 
 export function WhyMinivan({
-  title = "Neden Minivan Tercih Etmelisiniz?",
+  title = "Neden Panelvan Tercih Etmelisiniz?",
   description = "Büyük kamyonetlerin giremediği sokaklara, trafiğe takılmadan ve daha uygun fiyatlarla ulaşın.",
 }: WhyMinivanProps) {
   return (

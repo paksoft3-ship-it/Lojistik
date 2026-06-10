@@ -42,7 +42,7 @@ function TesekkurlerContent() {
           </h1>
 
           <p className="text-[17px] text-[#6B7280] leading-relaxed mb-10">
-            İstanbul içi minivan nakliye teklifiniz için en kısa sürede sizinle iletişime geçeceğiz.
+            İstanbul içi panelvan nakliye teklifiniz için en kısa sürede sizinle iletişime geçeceğiz.
           </p>
 
           {/* Buttons */}

@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!district) return {};
 
   return {
-    title: `${district.name} Minivan Nakliye | İstanbul`,
-    description: `${district.name} içi ve ${district.name} çıkışlı minivan nakliye hizmeti. Hızlı, ekonomik ve güvenilir taşımacılık. Hemen teklif alın.`,
+    title: `${district.name} Panelvan Nakliye | İstanbul`,
+    description: `${district.name} içi ve ${district.name} çıkışlı panelvan nakliye hizmeti. Hızlı, ekonomik ve güvenilir taşımacılık. Hemen teklif alın.`,
     alternates: {
       canonical: `${siteConfig.domain}/bolgeler/${slug}`,
     },
@@ -46,11 +46,11 @@ export default async function DistrictPage({ params }: Props) {
   const sideLabel = district.side === "avrupa" ? "Avrupa Yakası" : "Anadolu Yakası";
   const sideHref =
     district.side === "avrupa"
-      ? "/bolgeler/avrupa-yakasi-minivan-nakliye"
-      : "/bolgeler/anadolu-yakasi-minivan-nakliye";
+      ? "/bolgeler/avrupa-yakasi-panelvan-nakliye"
+      : "/bolgeler/anadolu-yakasi-panelvan-nakliye";
 
   const regionImage =
-    district.side === "avrupa" ? "/images/region-avrupa.png" : "/images/region-anadolu.png";
+    district.side === "avrupa" ? "/updatedimage/2.jpeg" : "/updatedimage/1.jpeg";
 
   const nearbyDistricts = allDistricts
     .filter((d) => d.side === district.side && d.slug !== slug)
@@ -61,8 +61,8 @@ export default async function DistrictPage({ params }: Props) {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `${district.name} Minivan Nakliye`,
-    description: `${district.name} içi ve ${district.name} çıkışlı minivan nakliye hizmeti.`,
+    name: `${district.name} Panelvan Nakliye`,
+    description: `${district.name} içi ve ${district.name} çıkışlı panelvan nakliye hizmeti.`,
     provider: {
       "@type": "LocalBusiness",
       name: siteConfig.brandName,
@@ -84,8 +84,8 @@ export default async function DistrictPage({ params }: Props) {
       <JsonLd data={serviceSchema} />
 
       <InnerHero
-        title={`${district.name} Minivan Nakliye`}
-        description={`${district.name} içi ve ${district.name} çıkışlı hızlı minivan nakliye hizmeti. Parça eşya, beyaz eşya, öğrenci eşyası ve acil taşıma için 7/24 hizmetinizdeyiz.`}
+        title={`${district.name} Panelvan Nakliye`}
+        description={`${district.name} içi ve ${district.name} çıkışlı hızlı panelvan nakliye hizmeti. Parça eşya, beyaz eşya, öğrenci eşyası ve acil taşıma için 7/24 hizmetinizdeyiz.`}
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Bölgeler", href: "/bolgeler" },
@@ -95,7 +95,7 @@ export default async function DistrictPage({ params }: Props) {
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge={`${sideLabel} — ${district.name}`}
         imageUrl={regionImage}
-        imageAlt={`${district.name} Minivan Nakliye`}
+        imageAlt={`${district.name} Panelvan Nakliye`}
       />
 
       <QuickQuoteForm defaultDistrict={district.name} />
@@ -146,7 +146,7 @@ export default async function DistrictPage({ params }: Props) {
       <FAQAccordion faqs={faqs} />
       <BottomCTA
         title={`${district.name} İçi Taşıma İçin Hemen Teklif Alın`}
-        description={`${district.name} ve çevresi için hızlı, ekonomik minivan nakliye. 7/24 hizmetinizdeyiz.`}
+        description={`${district.name} ve çevresi için hızlı, ekonomik panelvan nakliye. 7/24 hizmetinizdeyiz.`}
       />
     </>
   );

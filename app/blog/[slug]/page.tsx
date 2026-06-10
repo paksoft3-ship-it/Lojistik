@@ -73,7 +73,7 @@ export default async function BlogDetailPage({ params }: Props) {
             {/* Post Image */}
             <div className="relative w-full h-[240px] sm:h-[360px] rounded-[16px] overflow-hidden mb-8 border border-[#E5E7EB]">
               <Image
-                src={post.imageUrl || "/images/blog-hero.png"}
+                src={post.imageUrl || "/updatedimage/2.jpeg"}
                 alt={post.imageAlt || post.title}
                 fill
                 className="object-cover"
@@ -103,7 +103,7 @@ export default async function BlogDetailPage({ params }: Props) {
             {/* Article body placeholder */}
             <article className="prose max-w-none">
               <p className="text-[#6B7280] leading-relaxed mb-6">
-                {post.excerpt} İstanbul içi minivan nakliye hizmetlerimiz hakkında daha fazla bilgi almak için{" "}
+                {post.excerpt} İstanbul içi panelvan nakliye hizmetlerimiz hakkında daha fazla bilgi almak için{" "}
                 <Link href="/hizmetler" className="text-[#E63900] hover:underline">
                   hizmetler sayfamızı
                 </Link>{" "}

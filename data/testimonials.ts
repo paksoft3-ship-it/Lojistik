@@ -33,8 +33,8 @@ export const testimonials: Testimonial[] = [
     district: "Sarıyer",
     rating: 5,
     comment:
-      "Dar sokakta oturduğumuz için büyük araç giremiyordu. Minivan tam aradığımız çözümdü, şoför bey de çok yardımcı oldu.",
-    service: "istanbul-minivan-nakliye",
+      "Dar sokakta oturduğumuz için büyük araç giremiyordu. Panelvan tam aradığımız çözümdü, şoför bey de çok yardımcı oldu.",
+    service: "istanbul-panelvan-nakliye",
   },
   {
     id: "4",

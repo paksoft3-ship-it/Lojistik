@@ -20,28 +20,28 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    slug: "istanbul-minivan-nakliye",
-    title: "İstanbul Minivan Nakliye",
-    shortTitle: "Minivan Nakliye",
+    slug: "istanbul-panelvan-nakliye",
+    title: "İstanbul Panelvan Nakliye",
+    shortTitle: "Panelvan Nakliye",
     description:
-      "İstanbul içi tüm ilçeler arası hızlı, güvenilir ve ekonomik minivan taşımacılığı. Köprü yasaklarına takılmadan, dar sokaklara rahatça giren minivanlarımızla eşyalarınızı güvenle taşıyoruz.",
+      "İstanbul içi tüm ilçeler arası hızlı, güvenilir ve ekonomik panelvan taşımacılığı. Köprü yasaklarına takılmadan, dar sokaklara rahatça giren panelvanlarımızla eşyalarınızı güvenle taşıyoruz.",
     shortDescription:
-      "Tüm ilçeler arası hızlı, minivan araçlarla direkt teslimat.",
-    imageUrl: "/images/service-minivan.png",
+      "Tüm ilçeler arası hızlı, panelvan araçlarla direkt teslimat.",
+    imageUrl: "/updatedimage/1.jpeg",
     icon: "local_shipping",
-    href: "/hizmetler/istanbul-minivan-nakliye",
+    href: "/hizmetler/istanbul-panelvan-nakliye",
     features: [
       "Köprü yasaklarından muaf",
       "Dar sokaklara kolay erişim",
       "Aynı gün teslimat",
       "7/24 hizmet",
     ],
-    metaTitle: "İstanbul Minivan Nakliye | Hızlı ve Ekonomik Taşıma",
+    metaTitle: "İstanbul Panelvan Nakliye | Hızlı ve Ekonomik Taşıma",
     metaDescription:
-      "İstanbul içi minivan nakliye hizmeti. Aynı gün teslimat, uygun fiyat. Köprü yasaklarına takılmadan, İstanbul'un tüm ilçelerine hızlı taşıma. Hemen teklif alın.",
+      "İstanbul içi panelvan nakliye hizmeti. Aynı gün teslimat, uygun fiyat. Köprü yasaklarına takılmadan, İstanbul'un tüm ilçelerine hızlı taşıma. Hemen teklif alın.",
     keywords: [
-      "İstanbul minivan nakliye",
-      "minivan taşımacılık İstanbul",
+      "İstanbul panelvan nakliye",
+      "panelvan taşımacılık İstanbul",
       "İstanbul içi nakliye",
       "hızlı nakliye İstanbul",
     ],
@@ -92,7 +92,7 @@ export const services: Service[] = [
       {
         icon: "verified_user",
         title: "Güvenli Taşıma",
-        description: "Kapalı kasa minivanlar sayesinde eşyalarınız korunur.",
+        description: "Kapalı kasa panelvanlar sayesinde eşyalarınız korunur.",
       },
     ],
     faqIds: ["fiyat", "kapasite", "bolgeler", "hamali", "sameday", "sigorta"],
@@ -110,7 +110,7 @@ export const services: Service[] = [
       "Taksi mantığıyla çalışan, İstanbul içinde hızlı çağrılabilen hafif ticari araçlarımızla yük taşıma hizmeti. Taksi gibi çağırın, yükünüzü kapıdan kapıya taşıyalım.",
     shortDescription:
       "Taksi mantığıyla çalışan, hızlı çağrılabilen hafif ticari araçlar.",
-    imageUrl: "/images/service-yuk-taksi.png",
+    imageUrl: "/updatedimage/2.jpeg",
     icon: "local_taxi",
     href: "/hizmetler/istanbul-yuk-taksi",
     features: [
@@ -119,14 +119,14 @@ export const services: Service[] = [
       "Anında kapınızda",
       "7/24 operasyon",
     ],
-    metaTitle: "İstanbul Yük Taksi | Minivan ile Hızlı Yük Taşıma",
+    metaTitle: "İstanbul Yük Taksi | Panelvan ile Hızlı Yük Taşıma",
     metaDescription:
-      "İstanbul yük taksi hizmeti. Taksi gibi çağırın, kapıdan kapıya taşıma. Küçük yükler için ekonomik ve hızlı minivan çözümü. Hemen teklif alın.",
+      "İstanbul yük taksi hizmeti. Taksi gibi çağırın, kapıdan kapıya taşıma. Küçük yükler için ekonomik ve hızlı panelvan çözümü. Hemen teklif alın.",
     keywords: [
       "İstanbul yük taksi",
       "yük taksi İstanbul",
       "hızlı yük taşıma",
-      "minivan yük taksi",
+      "panelvan yük taksi",
     ],
     forWhom: [
       {
@@ -177,9 +177,9 @@ export const services: Service[] = [
     ],
     faqIds: ["yuk-taksi-fiyat", "kac-dakika", "bolgeler", "hamali"],
     relatedSlugs: [
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
       "kucuk-yuk-tasima",
-      "acil-minivan-nakliye",
+      "acil-panelvan-nakliye",
     ],
   },
   {
@@ -187,10 +187,10 @@ export const services: Service[] = [
     title: "İstanbul Küçük Yük Taşıma",
     shortTitle: "Küçük Yük Taşıma",
     description:
-      "1 koli ya da 10 koli fark etmez. İstanbul içinde küçük yükleriniz için ekonomik minivan çözümü. Büyük nakliye araçlarına gerek duymadan hızlı taşıma.",
+      "1 koli ya da 10 koli fark etmez. İstanbul içinde küçük yükleriniz için ekonomik panelvan çözümü. Büyük nakliye araçlarına gerek duymadan hızlı taşıma.",
     shortDescription:
       "Büyük nakliye aracı gerektirmeyen az miktardaki eşyalarınız için.",
-    imageUrl: "/images/service-kucuk-yuk.png",
+    imageUrl: "/updatedimage/2.jpeg",
     icon: "inventory_2",
     href: "/hizmetler/kucuk-yuk-tasima",
     features: [
@@ -199,9 +199,9 @@ export const services: Service[] = [
       "Kapıdan kapıya hizmet",
       "Aynı gün teslimat",
     ],
-    metaTitle: "İstanbul Küçük Yük Taşıma | Minivan Nakliye",
+    metaTitle: "İstanbul Küçük Yük Taşıma | Panelvan Nakliye",
     metaDescription:
-      "İstanbul içi küçük yük taşıma. Koli, paket, az eşya için ekonomik minivan çözümü. Büyük araç tutmadan pratik taşıma. Hemen fiyat alın.",
+      "İstanbul içi küçük yük taşıma. Koli, paket, az eşya için ekonomik panelvan çözümü. Büyük araç tutmadan pratik taşıma. Hemen fiyat alın.",
     keywords: [
       "küçük yük taşıma İstanbul",
       "koli taşıma İstanbul",
@@ -242,7 +242,7 @@ export const services: Service[] = [
       {
         icon: "speed",
         title: "Hız",
-        description: "Trafiğe takılmayan minivanlarla hızlı teslimat.",
+        description: "Trafiğe takılmayan panelvanlarla hızlı teslimat.",
       },
       {
         icon: "handshake",
@@ -259,7 +259,7 @@ export const services: Service[] = [
     relatedSlugs: [
       "istanbul-yuk-taksi",
       "parca-esya-tasima",
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
     ],
   },
   {
@@ -269,7 +269,7 @@ export const services: Service[] = [
     description:
       "Koltuk, dolap, masa gibi tekil büyük eşyalarınızı İstanbul içinde güvenle taşıyoruz. Sabitleme ve koruma malzemeleriyle hasarsız teslimat garantisi.",
     shortDescription: "1-2 parça mobilya veya eşyanın güvenle taşınması.",
-    imageUrl: "/images/service-parca-esya.png",
+    imageUrl: "/updatedimage/1.jpeg",
     icon: "chair",
     href: "/hizmetler/parca-esya-tasima",
     features: [
@@ -337,7 +337,7 @@ export const services: Service[] = [
     faqIds: ["fiyat", "kapasite", "hamali", "sigorta"],
     relatedSlugs: [
       "beyaz-esya-tasima",
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
       "kucuk-yuk-tasima",
     ],
   },
@@ -349,7 +349,7 @@ export const services: Service[] = [
       "Buzdolabı, çamaşır makinesi, fırın gibi hassas beyaz eşyalarınızı İstanbul içinde güvenle taşıyoruz. Dik taşıma garantisi ve özel koruma malzemeleriyle hasarsız teslimat.",
     shortDescription:
       "Buzdolabı, çamaşır makinesi gibi eşyaların hasarsız nakliyesi.",
-    imageUrl: "/images/service-beyaz-esya.png",
+    imageUrl: "/updatedimage/2.jpeg",
     icon: "kitchen",
     href: "/hizmetler/beyaz-esya-tasima",
     features: [
@@ -358,7 +358,7 @@ export const services: Service[] = [
       "Kurulum desteği",
       "Hasarsız teslimat",
     ],
-    metaTitle: "İstanbul Beyaz Eşya Taşıma | Minivan ile Güvenli Taşıma",
+    metaTitle: "İstanbul Beyaz Eşya Taşıma | Panelvan ile Güvenli Taşıma",
     metaDescription:
       "İstanbul içi beyaz eşya taşıma. Buzdolabı, çamaşır makinesi, fırın taşımacılığı. Dik taşıma garantisi, özel koruma. Hemen teklif alın.",
     keywords: [
@@ -417,7 +417,7 @@ export const services: Service[] = [
     faqIds: ["fiyat", "beyaz-esya-tasinan", "hamali", "sigorta"],
     relatedSlugs: [
       "parca-esya-tasima",
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
       "kucuk-yuk-tasima",
     ],
   },
@@ -429,7 +429,7 @@ export const services: Service[] = [
       "Öğrenci bütçesine uygun, hızlı ve güvenilir ev ve yurt taşıma hizmeti. Valiz, koli, küçük mobilyalar ve oda eşyalarınızı İstanbul içinde kolayca taşıyoruz.",
     shortDescription:
       "Öğrenciler için uygun fiyatlı yurt veya ev taşıma çözümleri.",
-    imageUrl: "/images/service-ogrenci-esyasi.png",
+    imageUrl: "/updatedimage/2.jpeg",
     icon: "school",
     href: "/hizmetler/ogrenci-esyasi-tasima",
     features: [
@@ -438,7 +438,7 @@ export const services: Service[] = [
       "Haftasonu hizmet",
       "Hızlı planlama",
     ],
-    metaTitle: "İstanbul Öğrenci Eşyası Taşıma | Ekonomik Minivan Nakliye",
+    metaTitle: "İstanbul Öğrenci Eşyası Taşıma | Ekonomik Panelvan Nakliye",
     metaDescription:
       "İstanbul öğrenci eşyası taşıma. Yurt, öğrenci evi taşımacılığı. Uygun fiyat, hızlı hizmet. Valiz, koli, mobilya taşıma. Hemen teklif alın.",
     keywords: [
@@ -496,7 +496,7 @@ export const services: Service[] = [
     ],
     faqIds: ["fiyat", "kapasite", "bolgeler", "hamali"],
     relatedSlugs: [
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
       "kucuk-yuk-tasima",
       "parca-esya-tasima",
     ],
@@ -506,10 +506,10 @@ export const services: Service[] = [
     title: "İstanbul Ofis ve Mağaza Ürünü Taşıma",
     shortTitle: "Ofis & Mağaza",
     description:
-      "Küçük ölçekli ofis taşımaları, mağaza içi transferler ve iş yeri malzeme sevkiyatları için İstanbul içi minivan hizmeti. Kurumsal fatura ve düzenli sevkiyat planı.",
+      "Küçük ölçekli ofis taşımaları, mağaza içi transferler ve iş yeri malzeme sevkiyatları için İstanbul içi panelvan hizmeti. Kurumsal fatura ve düzenli sevkiyat planı.",
     shortDescription:
       "Küçük ölçekli ofis taşımaları ve mağaza içi transferler.",
-    imageUrl: "/images/service-ofis-magaza.png",
+    imageUrl: "/updatedimage/2.jpeg",
     icon: "storefront",
     href: "/hizmetler/ofis-magaza-urunu-tasima",
     features: [
@@ -518,9 +518,9 @@ export const services: Service[] = [
       "Mesai dışı taşıma",
       "Hızlı planlama",
     ],
-    metaTitle: "İstanbul Ofis ve Mağaza Ürünü Taşıma | UluLojistik",
+    metaTitle: "İstanbul Ofis ve Mağaza Ürünü Taşıma | Ülkü Lojistik",
     metaDescription:
-      "İstanbul ofis ve mağaza taşıma. Küçük ofis transferi, mağaza ürün sevkiyatı. Kurumsal fatura, düzenli plan. Minivan ile pratik çözüm. Teklif alın.",
+      "İstanbul ofis ve mağaza taşıma. Küçük ofis transferi, mağaza ürün sevkiyatı. Kurumsal fatura, düzenli plan. Panelvan ile pratik çözüm. Teklif alın.",
     keywords: [
       "ofis taşıma İstanbul",
       "mağaza ürünü taşıma",
@@ -576,34 +576,34 @@ export const services: Service[] = [
     ],
     faqIds: ["fiyat", "kapasite", "bolgeler", "hamali"],
     relatedSlugs: [
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
       "kucuk-yuk-tasima",
       "istanbul-yuk-taksi",
     ],
   },
   {
-    slug: "acil-minivan-nakliye",
-    title: "İstanbul Acil Minivan Nakliye",
+    slug: "acil-panelvan-nakliye",
+    title: "İstanbul Acil Panelvan Nakliye",
     shortTitle: "Acil Nakliye",
     description:
-      "Beklemek istemeyenler için İstanbul'un her noktasına 60 dakika içinde araç yönlendiriyoruz. 7/24 acil minivan nakliye hizmeti.",
+      "Beklemek istemeyenler için İstanbul'un her noktasına 60 dakika içinde araç yönlendiriyoruz. 7/24 acil panelvan nakliye hizmeti.",
     shortDescription:
       "Beklemek istemeyenler için en hızlı VIP gönderi hizmeti.",
-    imageUrl: "/images/service-acil-nakliye.png",
+    imageUrl: "/updatedimage/1.jpeg",
     icon: "emergency",
-    href: "/hizmetler/acil-minivan-nakliye",
+    href: "/hizmetler/acil-panelvan-nakliye",
     features: [
       "1 saatte kapınızda",
       "Doğrudan teslimat",
       "7/24 operasyon",
       "Ekspres fiyatlandırma",
     ],
-    metaTitle: "İstanbul Acil Minivan Nakliye | 7/24 Ekspres Taşıma",
+    metaTitle: "İstanbul Acil Panelvan Nakliye | 7/24 Ekspres Taşıma",
     metaDescription:
-      "İstanbul acil minivan nakliye. 7/24 hizmet, 60 dakikada kapınızda. Ekspres taşıma, direkt teslimat. Hemen arayın veya WhatsApp'tan yazın.",
+      "İstanbul acil panelvan nakliye. 7/24 hizmet, 60 dakikada kapınızda. Ekspres taşıma, direkt teslimat. Hemen arayın veya WhatsApp'tan yazın.",
     keywords: [
       "acil nakliye İstanbul",
-      "acil minivan İstanbul",
+      "acil panelvan İstanbul",
       "ekspres taşıma İstanbul",
       "7/24 nakliye",
     ],
@@ -657,7 +657,7 @@ export const services: Service[] = [
     faqIds: ["acil-sure", "fiyat", "bolgeler"],
     relatedSlugs: [
       "istanbul-yuk-taksi",
-      "istanbul-minivan-nakliye",
+      "istanbul-panelvan-nakliye",
       "kucuk-yuk-tasima",
     ],
   },

@@ -15,16 +15,16 @@ import { getFAQsByIds } from "@/data/faq";
 import { avrupa, anadolu } from "@/data/districts";
 
 export const metadata: Metadata = {
-  title: "İstanbul İçi Minivan Nakliye Hizmetleri",
+  title: "İstanbul İçi Panelvan Nakliye Hizmetleri",
   description:
-    "İstanbul içi tüm minivan nakliye hizmetleri: yük taksi, parça eşya, beyaz eşya, öğrenci eşyası, ofis taşıma ve acil nakliye. Hemen teklif alın.",
+    "İstanbul içi tüm panelvan nakliye hizmetleri: yük taksi, parça eşya, beyaz eşya, öğrenci eşyası, ofis taşıma ve acil nakliye. Hemen teklif alın.",
   alternates: {
     canonical: `${siteConfig.domain}/hizmetler`,
   },
   openGraph: {
-    title: "İstanbul İçi Minivan Nakliye Hizmetleri | UluLojistik",
+    title: "İstanbul İçi Panelvan Nakliye Hizmetleri | Ülkü Lojistik",
     description:
-      "İstanbul içi tüm minivan nakliye hizmetleri. 7/24 hizmet, aynı gün taşıma.",
+      "İstanbul içi tüm panelvan nakliye hizmetleri. 7/24 hizmet, aynı gün taşıma.",
     url: `${siteConfig.domain}/hizmetler`,
   },
 };
@@ -35,7 +35,7 @@ const guidanceItems = [
   { icon: "inventory_2", title: "Sadece Koli/Paket", description: "Küçük Yük Taşıma hizmetimiz en ekonomik seçenektir." },
   { icon: "weekend", title: "1-2 Parça Mobilya", description: "Parça Eşya hizmetimizle güvenle taşıyoruz." },
   { icon: "kitchen", title: "Beyaz Eşya", description: "Özel korumalı Beyaz Eşya Taşıma tam size göre." },
-  { icon: "timer", title: "Zamanım Yok", description: "Acil Minivan Nakliye ile 1 saatte kapınızdayız." },
+  { icon: "timer", title: "Zamanım Yok", description: "Acil Panelvan Nakliye ile 1 saatte kapınızdayız." },
 ];
 
 export default function HizmetlerPage() {
@@ -51,15 +51,15 @@ export default function HizmetlerPage() {
       />
 
       <InnerHero
-        title="İstanbul İçi Minivan Nakliye Hizmetlerimiz"
-        description="Küçük hacimli yükleriniz, parça eşyalarınız, beyaz eşya ve öğrenci evi taşımacılığı için İstanbul'un her noktasına 7/24 hızlı, güvenilir ve ekonomik minivan araçlarımızla hizmetinizdeyiz."
+        title="İstanbul İçi Panelvan Nakliye Hizmetlerimiz"
+        description="Küçük hacimli yükleriniz, parça eşyalarınız, beyaz eşya ve öğrenci evi taşımacılığı için İstanbul'un her noktasına 7/24 hızlı, güvenilir ve ekonomik panelvan araçlarımızla hizmetinizdeyiz."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Hizmetler" },
         ]}
         primaryCTA={{ label: "Hemen Fiyat Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Araçlarımızı İncele", href: "/araclarimiz" }}
-        badge="İstanbul İçi Minivan Taşıma"
+        badge="İstanbul İçi Panelvan Taşıma"
       />
 
       {/* Services Grid */}
@@ -74,7 +74,7 @@ export default function HizmetlerPage() {
                 icon={service.icon}
                 href={service.href}
                 features={service.features}
-                highlighted={service.slug === "acil-minivan-nakliye"}
+                highlighted={service.slug === "acil-panelvan-nakliye"}
               />
             ))}
           </div>

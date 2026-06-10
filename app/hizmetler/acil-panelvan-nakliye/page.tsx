@@ -4,7 +4,7 @@ import { getServiceBySlug } from "@/data/services";
 import { ServicePageTemplate } from "@/components/sections/ServicePageTemplate";
 import { siteConfig } from "@/config/site";
 
-const SLUG = "acil-minivan-nakliye";
+const SLUG = "acil-panelvan-nakliye";
 
 export async function generateMetadata(): Promise<Metadata> {
   const service = getServiceBySlug(SLUG);

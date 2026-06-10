@@ -10,8 +10,8 @@ interface ServicesGridProps {
 }
 
 export function ServicesGrid({
-  title = "İstanbul İçi Minivan Nakliye Hizmetlerimiz",
-  description = "Büyük kamyonlara gerek duymadan, şehrin dar sokaklarına girebilen minivanlarımızla sunduğumuz hizmetler.",
+  title = "İstanbul İçi Panelvan Nakliye Hizmetlerimiz",
+  description = "Büyük kamyonlara gerek duymadan, şehrin dar sokaklarına girebilen panelvanlarımızla sunduğumuz hizmetler.",
   limit,
 }: ServicesGridProps) {
   const displayedServices = limit ? services.slice(0, limit) : services;
@@ -37,7 +37,7 @@ export function ServicesGrid({
               icon={service.icon}
               href={service.href}
               features={service.features.slice(0, 2)}
-              highlighted={index === displayedServices.length - 1 && service.slug === "acil-minivan-nakliye"}
+              highlighted={index === displayedServices.length - 1 && service.slug === "acil-panelvan-nakliye"}
             />
           ))}
         </div>

@@ -14,6 +14,7 @@ const items = [
   { icon: "storefront", label: "Mağaza Ürünleri" },
   { icon: "devices", label: "Cihazlar" },
   { icon: "sports_soccer", label: "Spor Malzemeleri" },
+  { icon: "factory", label: "Fabrikalardan" },
 ];
 
 interface TransportItemsGridProps {
@@ -22,7 +23,7 @@ interface TransportItemsGridProps {
 }
 
 export function TransportItemsGrid({
-  title = "Minivan İle Neler Taşınabilir?",
+  title = "Panelvan İle Neler Taşınabilir?",
   customItems,
 }: TransportItemsGridProps) {
   const displayItems = customItems ?? items;

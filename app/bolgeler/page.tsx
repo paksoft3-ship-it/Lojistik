@@ -11,12 +11,12 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { getFAQsByIds } from "@/data/faq";
 
 export const metadata: Metadata = {
-  title: "İstanbul İçi Minivan Nakliye Bölgeleri",
+  title: "İstanbul İçi Panelvan Nakliye Bölgeleri",
   description:
-    "İstanbul'un tüm ilçelerine minivan nakliye hizmeti. Avrupa ve Anadolu yakasındaki tüm semtlere hızlı ve ekonomik taşımacılık.",
+    "İstanbul'un tüm ilçelerine panelvan nakliye hizmeti. Avrupa ve Anadolu yakasındaki tüm semtlere hızlı ve ekonomik taşımacılık.",
   alternates: { canonical: `${siteConfig.domain}/bolgeler` },
   openGraph: {
-    title: "İstanbul Minivan Nakliye Bölgeleri | UluLojistik",
+    title: "İstanbul Panelvan Nakliye Bölgeleri | Ülkü Lojistik",
     url: `${siteConfig.domain}/bolgeler`,
   },
 };
@@ -34,16 +34,16 @@ export default function BolgerPage() {
       />
 
       <InnerHero
-        title="İstanbul'un Her İlçesine Minivan Nakliye"
-        description="Avrupa ve Anadolu yakasındaki tüm ilçelere hızlı, güvenilir ve ekonomik minivan taşımacılığı hizmeti sunuyoruz. Sadece İstanbul içi."
+        title="İstanbul'un Her İlçesine Panelvan Nakliye"
+        description="Avrupa ve Anadolu yakasındaki tüm ilçelere hızlı, güvenilir ve ekonomik panelvan taşımacılığı hizmeti sunuyoruz. Sadece İstanbul içi."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Bölgeler" },
         ]}
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge="Sadece İstanbul İçi"
-        imageUrl="/images/service-minivan.png"
-        imageAlt="İstanbul'un Her İlçesine Minivan Nakliye"
+        imageUrl="/updatedimage/2.jpeg"
+        imageAlt="İstanbul'un Her İlçesine Panelvan Nakliye"
       />
 
       {/* Region cards */}
@@ -70,7 +70,7 @@ export default function BolgerPage() {
                 ))}
               </div>
               <Link
-                href="/bolgeler/avrupa-yakasi-minivan-nakliye"
+                href="/bolgeler/avrupa-yakasi-panelvan-nakliye"
                 className="inline-flex items-center gap-2 bg-[#E63900] hover:bg-[#C92F00] text-white font-medium px-5 py-2.5 rounded-[8px] text-sm transition-colors"
               >
                 Avrupa Yakası Detay
@@ -84,7 +84,7 @@ export default function BolgerPage() {
                 <h2 className="text-[22px] font-semibold text-[#111827]">Anadolu Yakası</h2>
               </div>
               <p className="text-[#6B7280] mb-6">
-                Boğazın Asya yakasındaki tüm ilçelere hızlı minivan hizmeti.
+                Boğazın Asya yakasındaki tüm ilçelere hızlı panelvan hizmeti.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 {anadolu.map((d) => (
@@ -98,7 +98,7 @@ export default function BolgerPage() {
                 ))}
               </div>
               <Link
-                href="/bolgeler/anadolu-yakasi-minivan-nakliye"
+                href="/bolgeler/anadolu-yakasi-panelvan-nakliye"
                 className="inline-flex items-center gap-2 bg-[#E63900] hover:bg-[#C92F00] text-white font-medium px-5 py-2.5 rounded-[8px] text-sm transition-colors"
               >
                 Anadolu Yakası Detay

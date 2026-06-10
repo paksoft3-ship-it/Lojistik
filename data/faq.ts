@@ -15,16 +15,16 @@ export const faqs: FAQ[] = [
   },
   {
     id: "kapasite",
-    question: "Minivan araçların kapasitesi nedir?",
+    question: "Panelvan araçların kapasitesi nedir?",
     answer:
-      "Minivan araçlarımız ortalama 800 kg taşıma kapasitesine ve 4-6 m³ yük alanına sahiptir. Araç uzunluğu yaklaşık 2,20 m, genişliği ise 1,40 m'dir. Bu sayede koltuk, buzdolabı, koli ve benzeri eşyalar rahatlıkla taşınabilmektedir.",
+      "Panelvan araçlarımız ortalama 800 kg taşıma kapasitesine ve 17 m³ yük alanına sahiptir. Araç uzunluğu yaklaşık 2,20 m, genişliği ise 1,40 m'dir. Bu sayede koltuk, buzdolabı, koli ve benzeri eşyalar rahatlıkla taşınabilmektedir.",
     categories: ["genel", "arac"],
   },
   {
     id: "bolgeler",
     question: "İstanbul'un hangi ilçelerine hizmet veriyorsunuz?",
     answer:
-      "UluLojistik olarak İstanbul'un tüm ilçelerine hizmet veriyoruz. Avrupa Yakası'nda Beşiktaş, Şişli, Bakırköy, Beylikdüzü ve daha fazlası; Anadolu Yakası'nda Kadıköy, Üsküdar, Maltepe, Pendik ve tüm ilçeler hizmet bölgemiz içindedir. Sadece İstanbul içi hizmet sağlamaktayız.",
+      "Ülkü Lojistik olarak İstanbul'un tüm ilçelerine hizmet veriyoruz. Avrupa Yakası'nda Beşiktaş, Şişli, Bakırköy, Beylikdüzü ve daha fazlası; Anadolu Yakası'nda Kadıköy, Üsküdar, Maltepe, Pendik ve tüm ilçeler hizmet bölgemiz içindedir. Sadece İstanbul içi hizmet sağlamaktayız.",
     categories: ["genel", "bolge"],
   },
   {
@@ -66,7 +66,7 @@ export const faqs: FAQ[] = [
     id: "acil-sure",
     question: "Acil nakliye talebi ne kadar sürede karşılanıyor?",
     answer:
-      "Acil minivan nakliye taleplerinizi 7/24 karşılıyoruz. Araç, talep sonrasında genellikle 60 dakika içinde kapınıza gelmektedir. Hızlı ulaşım için doğrudan WhatsApp veya telefon hattımızı kullanmanızı öneririz.",
+      "Acil panelvan nakliye taleplerinizi 7/24 karşılıyoruz. Araç, talep sonrasında genellikle 60 dakika içinde kapınıza gelmektedir. Hızlı ulaşım için doğrudan WhatsApp veya telefon hattımızı kullanmanızı öneririz.",
     categories: ["acil"],
   },
   {
@@ -87,7 +87,7 @@ export const faqs: FAQ[] = [
     id: "sehirlerarasi",
     question: "Şehirlerarası taşıma yapıyor musunuz?",
     answer:
-      "Hayır. UluLojistik sadece İstanbul içi minivan taşımacılığı hizmeti vermektedir. Şehirlerarası, uluslararası veya büyük hacimli yük taşımacılığı hizmetlerimiz bulunmamaktadır.",
+      "Hayır. Ülkü Lojistik sadece İstanbul içi panelvan taşımacılığı hizmeti vermektedir. Şehirlerarası, uluslararası veya büyük hacimli yük taşımacılığı hizmetlerimiz bulunmamaktadır.",
     categories: ["genel", "bolge"],
   },
 ];

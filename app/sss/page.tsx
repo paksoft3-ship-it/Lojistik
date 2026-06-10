@@ -8,9 +8,9 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { FAQJsonLd } from "@/components/seo/FAQJsonLd";
 
 export const metadata: Metadata = {
-  title: "Sıkça Sorulan Sorular | İstanbul Minivan Nakliye SSS – UluLojistik",
+  title: "Sıkça Sorulan Sorular | İstanbul Panelvan Nakliye SSS – Ülkü Lojistik",
   description:
-    "UluLojistik İstanbul minivan nakliye hizmeti hakkında sık sorulan sorular. Fiyat, kapasite, hizmet bölgeleri, hamaliye, aynı gün teslimat ve daha fazlası.",
+    "Ülkü Lojistik İstanbul panelvan nakliye hizmeti hakkında sık sorulan sorular. Fiyat, kapasite, hizmet bölgeleri, hamaliye, aynı gün teslimat ve daha fazlası.",
   alternates: { canonical: `${siteConfig.domain}/sss` },
 };
 
@@ -27,7 +27,7 @@ export default function SSSPage() {
 
       <InnerHero
         title="Sıkça Sorulan Sorular"
-        description="İstanbul içi minivan nakliye hizmetlerimiz hakkında en çok merak edilen sorular ve cevapları."
+        description="İstanbul içi panelvan nakliye hizmetlerimiz hakkında en çok merak edilen sorular ve cevapları."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "SSS" },

@@ -39,7 +39,7 @@ export default function NotFound() {
           </h1>
 
           <p className="text-[17px] text-[#6B7280] leading-relaxed mb-10 max-w-lg mx-auto">
-            Görünüşe göre bu sayfa taşınmış veya silinmiş olabilir. Ancak İstanbul içi hızlı minivan nakliye hizmetimiz kesintisiz devam ediyor.
+            Görünüşe göre bu sayfa taşınmış veya silinmiş olabilir. Ancak İstanbul içi hızlı panelvan nakliye hizmetimiz kesintisiz devam ediyor.
           </p>
 
           {/* Buttons */}
@@ -72,11 +72,11 @@ export default function NotFound() {
           {/* Helpful links bento */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <Link
-              href="/hizmetler/istanbul-minivan-nakliye"
+              href="/hizmetler/istanbul-panelvan-nakliye"
               className="flex flex-col items-center gap-2 bg-white border border-[#E5E7EB] rounded-[14px] p-5 hover:border-[#E63900] hover:shadow-sm transition-all group"
             >
               <span className="material-symbols-outlined text-[#E63900] text-[28px]" aria-hidden="true">airport_shuttle</span>
-              <span className="text-sm font-medium text-[#111827] group-hover:text-[#E63900] transition-colors text-center leading-tight">Minivan Nakliye</span>
+              <span className="text-sm font-medium text-[#111827] group-hover:text-[#E63900] transition-colors text-center leading-tight">Panelvan Nakliye</span>
             </Link>
             <Link
               href="/hizmetler"

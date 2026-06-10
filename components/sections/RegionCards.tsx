@@ -18,7 +18,7 @@ export function RegionCards() {
                 </h3>
               </div>
               <p className="text-[#6B7280] leading-relaxed mb-3">
-                Avrupa yakasındaki tüm ilçeler için hızlı minivan araçlarımız her
+                Avrupa yakasındaki tüm ilçeler için hızlı panelvan araçlarımız her
                 an hazır.
               </p>
               <p className="text-sm text-[#9CA3AF]">
@@ -31,7 +31,7 @@ export function RegionCards() {
             </div>
             <div className="mt-6">
               <Link
-                href="/bolgeler/avrupa-yakasi-minivan-nakliye"
+                href="/bolgeler/avrupa-yakasi-panelvan-nakliye"
                 className="inline-flex items-center gap-2 bg-[#E63900] hover:bg-[#C92F00] text-white font-medium px-5 py-2.5 rounded-[8px] transition-colors active:scale-95 text-sm"
               >
                 Teklif Al
@@ -66,7 +66,7 @@ export function RegionCards() {
             </div>
             <div className="mt-6">
               <Link
-                href="/bolgeler/anadolu-yakasi-minivan-nakliye"
+                href="/bolgeler/anadolu-yakasi-panelvan-nakliye"
                 className="inline-flex items-center gap-2 bg-[#E63900] hover:bg-[#C92F00] text-white font-medium px-5 py-2.5 rounded-[8px] transition-colors active:scale-95 text-sm"
               >
                 Teklif Al

@@ -14,7 +14,7 @@ export function TopBar() {
             <span className="material-symbols-outlined text-[16px]" aria-hidden="true">
               location_on
             </span>
-            İstanbul içi 7/24 hızlı minivan nakliye
+            İstanbul içi 7/24 hızlı panelvan nakliye
           </span>
         </div>
         <div className="flex items-center gap-6">

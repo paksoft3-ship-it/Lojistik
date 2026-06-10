@@ -22,7 +22,7 @@ export function ServiceJsonLd({ service }: ServiceJsonLdProps) {
       "@type": "City",
       name: siteConfig.serviceArea,
     },
-    serviceType: "Minivan Nakliye",
+    serviceType: "Panelvan Nakliye",
   };
 
   return <JsonLd data={schema} />;

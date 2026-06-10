@@ -8,15 +8,15 @@ import { InnerHero } from "@/components/sections/InnerHero";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 
 export const metadata: Metadata = {
-  title: "Blog | İstanbul Minivan Nakliye Rehberi – UluLojistik",
+  title: "Blog | İstanbul Panelvan Nakliye Rehberi – Ülkü Lojistik",
   description:
-    "İstanbul minivan nakliye rehberi, taşınma ipuçları, ilçe rehberleri ve nakliye fiyatları hakkında faydalı yazılar. UluLojistik Blog.",
+    "İstanbul panelvan nakliye rehberi, taşınma ipuçları, ilçe rehberleri ve nakliye fiyatları hakkında faydalı yazılar. Ülkü Lojistik Blog.",
   alternates: { canonical: `${siteConfig.domain}/blog` },
 };
 
 const categories = [
   "Tüm Yazılar",
-  "Minivan Nakliye",
+  "Panelvan Nakliye",
   "Küçük Yük Taşıma",
   "Parça Eşya",
   "Beyaz Eşya",
@@ -27,7 +27,7 @@ const categories = [
 ];
 
 const popularTopics = [
-  { label: "İstanbul Minivan Nakliye Fiyatları", href: "/blog/istanbul-parca-esya-tasima-avantajlari" },
+  { label: "İstanbul Panelvan Nakliye Fiyatları", href: "/blog/istanbul-parca-esya-tasima-avantajlari" },
   { label: "Öğrenci Evi Taşıma Rehberi", href: "/blog/ogrenci-evi-tasima-rehberi" },
   { label: "Beyaz Eşya Taşıma İpuçları", href: "/blog/beyaz-esya-tasima-dikkat-edilecekler" },
   { label: "Yük Taksi Nedir?", href: "/blog/yuk-taksi-nedir-nasil-cagrilir" },
@@ -36,16 +36,16 @@ const popularTopics = [
 // Extra placeholder articles
 const extraArticles = [
   {
-    slug: "istanbul-minivan-nakliye-fiyatlari",
-    title: "İstanbul İçi Minivan Nakliye Fiyatları",
-    excerpt: "2025 yılı İstanbul içi minivan nakliye fiyatları, hangi faktörler fiyatı etkiler ve nasıl uygun teklif alınır?",
+    slug: "istanbul-panelvan-nakliye-fiyatlari",
+    title: "İstanbul İçi Panelvan Nakliye Fiyatları",
+    excerpt: "2025 yılı İstanbul içi panelvan nakliye fiyatları, hangi faktörler fiyatı etkiler ve nasıl uygun teklif alınır?",
     category: "Fiyat Rehberi",
     readTime: 3,
   },
   {
     slug: "kucuk-yuk-tasima-avantajlari",
     title: "Küçük Yük Taşımanın Avantajları",
-    excerpt: "Büyük kamyon kiralamak yerine minivan ile küçük yük taşımak neden daha mantıklı? Avantajları ve tasarruf ipuçları.",
+    excerpt: "Büyük kamyon kiralamak yerine panelvan ile küçük yük taşımak neden daha mantıklı? Avantajları ve tasarruf ipuçları.",
     category: "Küçük Yük",
     readTime: 2,
   },
@@ -96,15 +96,15 @@ export default function BlogPage() {
       />
 
       <InnerHero
-        title="Blog / İstanbul Minivan Nakliye Rehberi"
-        description="Taşınma ipuçları, fiyat rehberleri, ilçe bilgileri ve minivan nakliye hakkında faydalı içerikler."
+        title="Blog / İstanbul Panelvan Nakliye Rehberi"
+        description="Taşınma ipuçları, fiyat rehberleri, ilçe bilgileri ve panelvan nakliye hakkında faydalı içerikler."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Blog" },
         ]}
         badge="Nakliye Rehberi"
-        imageUrl="/images/blog-hero.png"
-        imageAlt="Blog / İstanbul Minivan Nakliye Rehberi"
+        imageUrl="/updatedimage/1.jpeg"
+        imageAlt="Blog / İstanbul Panelvan Nakliye Rehberi"
       />
 
       <section className="py-12">
@@ -151,7 +151,7 @@ export default function BlogPage() {
                   {/* Image */}
                   <div className="relative min-h-[200px] w-full bg-[#F8F9FA]">
                     <Image
-                      src={featuredPost.imageUrl || "/images/blog-hero.png"}
+                      src={featuredPost.imageUrl || "/updatedimage/2.jpeg"}
                       alt={featuredPost.imageAlt || featuredPost.title}
                       fill
                       className="object-cover"
@@ -161,13 +161,13 @@ export default function BlogPage() {
                   {/* Content */}
                   <div className="p-6 flex flex-col justify-center">
                     <span className="inline-block px-2.5 py-1 bg-[#FFF0EB] text-[#E63900] text-xs font-medium rounded-full border border-[#FECDB9] mb-3 w-fit">
-                      Minivan Nakliye
+                      Panelvan Nakliye
                     </span>
                     <h2 className="text-[18px] font-semibold text-[#111827] mb-3 leading-snug">
-                      İstanbul&apos;da Minivan Nakliye Ne Zaman Tercih Edilir?
+                      İstanbul&apos;da Panelvan Nakliye Ne Zaman Tercih Edilir?
                     </h2>
                     <p className="text-sm text-[#6B7280] leading-relaxed mb-4">
-                      Küçük hacimli taşımalarda büyük araç kiralamak gereksiz maliyet yaratır. Minivan nakliyenin avantajlarını keşfedin.
+                      Küçük hacimli taşımalarda büyük araç kiralamak gereksiz maliyet yaratır. Panelvan nakliyenin avantajlarını keşfedin.
                     </p>
                     <Link
                       href={`/blog/${featuredPost.slug}`}
@@ -280,7 +280,7 @@ export default function BlogPage() {
                   airport_shuttle
                 </span>
                 <h3 className="font-semibold text-[#111827] mb-2">Hemen Taşıyalım</h3>
-                <p className="text-sm text-[#6B7280] mb-4">İstanbul içi minivan nakliye için ücretsiz teklif alın.</p>
+                <p className="text-sm text-[#6B7280] mb-4">İstanbul içi panelvan nakliye için ücretsiz teklif alın.</p>
                 <Link
                   href="/teklif-al"
                   className="inline-flex items-center justify-center gap-2 bg-[#E63900] hover:bg-[#C92F00] text-white font-medium px-5 py-2.5 rounded-[8px] transition-colors w-full text-sm min-h-[44px]"

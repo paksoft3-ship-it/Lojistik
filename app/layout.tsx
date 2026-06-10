@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain),
   title: {
-    default: `İstanbul Minivan Nakliye | ${siteConfig.brandName}`,
+    default: `İstanbul Panelvan Nakliye | ${siteConfig.brandName}`,
     template: `%s | ${siteConfig.brandName}`,
   },
   description: siteConfig.mainDescription,
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: siteConfig.domain,
     siteName: siteConfig.brandName,
-    title: `İstanbul Minivan Nakliye | ${siteConfig.brandName}`,
+    title: `İstanbul Panelvan Nakliye | ${siteConfig.brandName}`,
     description: siteConfig.mainDescription,
   },
   twitter: {
     card: "summary_large_image",
-    title: `İstanbul Minivan Nakliye | ${siteConfig.brandName}`,
+    title: `İstanbul Panelvan Nakliye | ${siteConfig.brandName}`,
     description: siteConfig.mainDescription,
   },
   alternates: {

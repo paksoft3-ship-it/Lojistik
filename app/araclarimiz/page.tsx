@@ -8,14 +8,14 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Minivan Araçlarımız | İstanbul İçi Nakliye Filosu – UluLojistik",
+  title: "Panelvan Araçlarımız | İstanbul İçi Nakliye Filosu – Ülkü Lojistik",
   description:
-    "UluLojistik minivan araçları. İstanbul içi koli, parça eşya, beyaz eşya ve ofis taşımacılığı için kapalı kasa minivan filomuz. 800 kg kapasite, 4-6 m³ hacim, 7/24 hizmet.",
+    "Ülkü Lojistik panelvan araçları. İstanbul içi koli, parça eşya, beyaz eşya ve ofis taşımacılığı için kapalı kasa panelvan filomuz. 800 kg kapasite, 17 m³ hacim, 7/24 hizmet.",
   alternates: { canonical: `${siteConfig.domain}/araclarimiz` },
 };
 
 const vehicleSpecs = [
-  { icon: "directions_car", label: "Araç Tipi", value: "Panelvan / Minivan" },
+  { icon: "directions_car", label: "Araç Tipi", value: "Panelvan / Panelvan" },
   { icon: "location_on", label: "Kullanım Alanı", value: "İstanbul İçi" },
   { icon: "inventory_2", label: "Uygun Yükler", value: "Koli, hafif mobilya, beyaz eşya" },
   { icon: "traffic", label: "Avantajı", value: "Köprü yasaklarına takılmaz" },
@@ -72,17 +72,17 @@ export default function AraclarimizPage() {
       />
 
       <InnerHero
-        title="Minivan Araçlarımız"
-        description="İstanbul içi koli, parça eşya, ofis malzemesi ve beyaz eşya taşımacılığı için ideal, trafiğe takılmayan, kapalı kasa minivan filomuzla 7/24 hizmetinizdeyiz."
+        title="Panelvan Araçlarımız"
+        description="İstanbul içi koli, parça eşya, ofis malzemesi ve beyaz eşya taşımacılığı için ideal, trafiğe takılmayan, kapalı kasa panelvan filomuzla 7/24 hizmetinizdeyiz."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Araçlarımız" },
         ]}
-        badge="İstanbul İçi Minivan Araçlar"
+        badge="İstanbul İçi Panelvan Araçlar"
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Hizmetlerimiz", href: "/hizmetler" }}
-        imageUrl="/images/service-minivan.png"
-        imageAlt="Minivan Araçlarımız"
+        imageUrl="/updatedimage/1.jpeg"
+        imageAlt="Panelvan Araçlarımız"
       />
 
       {/* Featured vehicle card */}
@@ -92,8 +92,8 @@ export default function AraclarimizPage() {
             {/* Vehicle visual */}
             <div className="relative w-full h-[260px] bg-white rounded-[14px] border border-[#E5E7EB] overflow-hidden">
               <Image
-                src="/images/service-minivan.png"
-                alt="Standart Kapalı Kasa Minivan"
+                src="/updatedimage/1.jpeg"
+                alt="Standart Kapalı Kasa Panelvan"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -106,7 +106,7 @@ export default function AraclarimizPage() {
                 Öne Çıkan Araç
               </span>
               <h2 className="text-[22px] font-semibold text-[#111827] mb-3">
-                Standart Kapalı Kasa Minivan
+                Standart Kapalı Kasa Panelvan
               </h2>
               <p className="text-[#6B7280] mb-6 leading-relaxed text-sm">
                 İstanbul içi taşımacılıkta en pratik ve ekonomik çözüm. Dar sokaklara girer, köprü yasaklarına takılmaz.
@@ -134,7 +134,7 @@ export default function AraclarimizPage() {
         <Container>
           <div className="text-center mb-10">
             <h2 className="text-[22px] md:text-[28px] font-semibold text-[#111827]">Araç Kapasitesi</h2>
-            <p className="text-[#6B7280] mt-2">Minivanımızın taşıma kapasitesi hakkında bilgi</p>
+            <p className="text-[#6B7280] mt-2">Panelvanımızın taşıma kapasitesi hakkında bilgi</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {capacityCards.map((card) => (
@@ -158,7 +158,7 @@ export default function AraclarimizPage() {
         <Container>
           <div className="text-center mb-10">
             <h2 className="text-[22px] md:text-[28px] font-semibold text-[#111827]">
-              Minivanla Neler Taşıyoruz?
+              Panelvanla Neler Taşıyoruz?
             </h2>
             <p className="text-[#6B7280] mt-2">Küçük ve orta hacimli yükleriniz için ideal araç</p>
           </div>
@@ -180,7 +180,7 @@ export default function AraclarimizPage() {
         <Container>
           <div className="text-center mb-10">
             <h2 className="text-[22px] md:text-[28px] font-semibold text-[#111827]">
-              Minivan ile İstanbul&apos;da Taşımanın Avantajları
+              Panelvan ile İstanbul&apos;da Taşımanın Avantajları
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -204,8 +204,8 @@ export default function AraclarimizPage() {
       <QuickQuoteForm />
 
       <BottomCTA
-        title="Minivan ile İstanbul'da Hızlı Taşıma"
-        description="Sadece minivan araçlarımızla İstanbul içinde hızlı, ekonomik ve güvenilir taşımacılık. Hemen teklif alın."
+        title="Panelvan ile İstanbul'da Hızlı Taşıma"
+        description="Sadece panelvan araçlarımızla İstanbul içinde hızlı, ekonomik ve güvenilir taşımacılık. Hemen teklif alın."
       />
     </>
   );

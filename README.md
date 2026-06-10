@@ -1,6 +1,6 @@
-# UluLojistik — İstanbul Minivan Nakliye Website
+# Ülkü Lojistik — İstanbul Panelvan Nakliye Website
 
-Production-ready Next.js website for UluLojistik, an Istanbul-only minivan transport service.
+Production-ready Next.js website for Ülkü Lojistik, an Istanbul-only panelvan transport service.
 
 ## Tech Stack
 - **Next.js 16** (App Router)
@@ -159,7 +159,7 @@ All events include `page_path`, `location`, `button_text` metadata.
 - Contact info changes
 - Important business constraints change
 
-Keep the constraint section accurate: UluLojistik is Istanbul-only, minivan-only.
+Keep the constraint section accurate: Ülkü Lojistik is Istanbul-only, panelvan-only.
 
 ## Business Constraints (do NOT violate)
 
@@ -167,4 +167,4 @@ Keep the constraint section accurate: UluLojistik is Istanbul-only, minivan-only
 - ❌ No "tır", "kamyon", "kamyonet", "büyük araç"
 - ❌ No "şehirlerarası", "şehirler arası"
 - ✅ Only "İstanbul içi"
-- ✅ Only "minivan" vehicles
+- ✅ Only "panelvan" vehicles

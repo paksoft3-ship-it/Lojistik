@@ -10,7 +10,7 @@ interface BottomCTAProps {
 
 export function BottomCTA({
   title = "İstanbul İçi Yükünüzü Hemen Taşıyalım",
-  description = "Büyük araçlara yüksek ücretler ödemeyin. Hızlı, ekonomik ve pratik minivan nakliye için hemen teklif alın.",
+  description = "Büyük araçlara yüksek ücretler ödemeyin. Hızlı, ekonomik ve pratik panelvan nakliye için hemen teklif alın.",
 }: BottomCTAProps) {
   return (
     <section className="py-12 md:py-16 px-4 md:px-8">

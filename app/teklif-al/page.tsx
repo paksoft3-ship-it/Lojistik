@@ -75,7 +75,7 @@ const inlineFAQs = [
   },
   {
     q: "Sadece İstanbul içi mi taşıyorsunuz?",
-    a: "Evet, yalnızca İstanbul içi minivan nakliye hizmeti veriyoruz. Şehirlerarası taşımacılık hizmetimiz bulunmamaktadır.",
+    a: "Evet, yalnızca İstanbul içi panelvan nakliye hizmeti veriyoruz. Şehirlerarası taşımacılık hizmetimiz bulunmamaktadır.",
   },
   {
     q: "WhatsApp üzerinden teklif alabilir miyim?",
@@ -222,10 +222,10 @@ export default function TeklifAlPage() {
               Ücretsiz Teklif
             </span>
             <h1 className="text-[28px] md:text-[40px] font-semibold text-[#111827] mb-3 tracking-tight">
-              Minivan Nakliye Teklifi Al
+              Panelvan Nakliye Teklifi Al
             </h1>
             <p className="text-[#6B7280] text-[17px] max-w-2xl leading-relaxed">
-              İstanbul içi parça eşya ve küçük yükleriniz için hemen formu doldurun, 15 dakika içinde en uygun minivan nakliye teklifimizi iletelim.
+              İstanbul içi parça eşya ve küçük yükleriniz için hemen formu doldurun, 15 dakika içinde en uygun panelvan nakliye teklifimizi iletelim.
             </p>
           </div>
 
@@ -513,7 +513,7 @@ export default function TeklifAlPage() {
             <div className="lg:col-span-4 space-y-5 lg:sticky lg:top-28 self-start">
               {/* Trust card */}
               <div className="bg-white border border-[#E5E7EB] rounded-[16px] p-6">
-                <h3 className="font-semibold text-[#111827] mb-5 text-[16px]">Neden UluLojistik?</h3>
+                <h3 className="font-semibold text-[#111827] mb-5 text-[16px]">Neden Ülkü Lojistik?</h3>
                 <ul className="space-y-4">
                   {trustItems.map((item) => (
                     <li key={item.text} className="flex items-start gap-3">

@@ -11,8 +11,8 @@ export const mainNav: NavItem[] = [
     href: "/hizmetler",
     children: [
       {
-        label: "Minivan Nakliye",
-        href: "/hizmetler/istanbul-minivan-nakliye",
+        label: "Panelvan Nakliye",
+        href: "/hizmetler/istanbul-panelvan-nakliye",
       },
       { label: "Yük Taksi", href: "/hizmetler/istanbul-yuk-taksi" },
       { label: "Küçük Yük Taşıma", href: "/hizmetler/kucuk-yuk-tasima" },
@@ -26,7 +26,7 @@ export const mainNav: NavItem[] = [
         label: "Ofis & Mağaza",
         href: "/hizmetler/ofis-magaza-urunu-tasima",
       },
-      { label: "Acil Nakliye", href: "/hizmetler/acil-minivan-nakliye" },
+      { label: "Acil Nakliye", href: "/hizmetler/acil-panelvan-nakliye" },
     ],
   },
   {
@@ -35,11 +35,11 @@ export const mainNav: NavItem[] = [
     children: [
       {
         label: "Avrupa Yakası",
-        href: "/bolgeler/avrupa-yakasi-minivan-nakliye",
+        href: "/bolgeler/avrupa-yakasi-panelvan-nakliye",
       },
       {
         label: "Anadolu Yakası",
-        href: "/bolgeler/anadolu-yakasi-minivan-nakliye",
+        href: "/bolgeler/anadolu-yakasi-panelvan-nakliye",
       },
     ],
   },
@@ -55,13 +55,13 @@ export const ctaNav: NavItem = {
 
 export const footerNav = {
   hizmetler: [
-    { label: "İstanbul Minivan Nakliye", href: "/hizmetler/istanbul-minivan-nakliye" },
+    { label: "İstanbul Panelvan Nakliye", href: "/hizmetler/istanbul-panelvan-nakliye" },
     { label: "Yük Taksi", href: "/hizmetler/istanbul-yuk-taksi" },
     { label: "Parça Eşya Taşıma", href: "/hizmetler/parca-esya-tasima" },
     { label: "Beyaz Eşya Taşıma", href: "/hizmetler/beyaz-esya-tasima" },
     { label: "Öğrenci Eşyası Taşıma", href: "/hizmetler/ogrenci-esyasi-tasima" },
     { label: "Küçük Ofis Taşıma", href: "/hizmetler/ofis-magaza-urunu-tasima" },
-    { label: "Acil Minivan Nakliye", href: "/hizmetler/acil-minivan-nakliye" },
+    { label: "Acil Panelvan Nakliye", href: "/hizmetler/acil-panelvan-nakliye" },
   ],
   kurumsal: [
     { label: "Hakkımızda", href: "/hakkimizda" },
@@ -72,8 +72,8 @@ export const footerNav = {
     { label: "İletişim", href: "/iletisim" },
   ],
   bolgeler: [
-    { label: "Avrupa Yakası", href: "/bolgeler/avrupa-yakasi-minivan-nakliye" },
-    { label: "Anadolu Yakası", href: "/bolgeler/anadolu-yakasi-minivan-nakliye" },
+    { label: "Avrupa Yakası", href: "/bolgeler/avrupa-yakasi-panelvan-nakliye" },
+    { label: "Anadolu Yakası", href: "/bolgeler/anadolu-yakasi-panelvan-nakliye" },
     { label: "Kadıköy", href: "/bolgeler/kadikoy" },
     { label: "Beşiktaş", href: "/bolgeler/besiktas" },
     { label: "Şişli", href: "/bolgeler/sisli" },

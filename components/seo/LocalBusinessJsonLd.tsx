@@ -36,14 +36,14 @@ export function LocalBusinessJsonLd() {
     sameAs: Object.values(siteConfig.social).filter(Boolean),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "İstanbul Minivan Nakliye Hizmetleri",
+      name: "İstanbul Panelvan Nakliye Hizmetleri",
       itemListElement: [
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "İstanbul Minivan Nakliye" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "İstanbul Panelvan Nakliye" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "İstanbul Yük Taksi" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Parça Eşya Taşıma" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Beyaz Eşya Taşıma" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Öğrenci Eşyası Taşıma" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Acil Minivan Nakliye" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Acil Panelvan Nakliye" } },
       ],
     },
   };

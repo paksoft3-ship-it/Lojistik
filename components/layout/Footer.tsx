@@ -15,13 +15,13 @@ export function Footer() {
             <Link
               href="/"
               className="text-xl font-bold text-white tracking-tight block mb-4"
-              aria-label="UluLojistik Ana Sayfa"
+              aria-label="Ülkü Lojistik Ana Sayfa"
             >
               <span className="text-[#E63900]">Ulu</span>Lojistik
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
               İstanbul içi parça eşya, koli, beyaz eşya ve öğrenci eşyası
-              taşımacılığında hızlı ve ekonomik minivan çözümleri.
+              taşımacılığında hızlı ve ekonomik panelvan çözümleri.
             </p>
             <div className="space-y-2 text-sm">
               <Link
@@ -136,7 +136,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500">
-            © {currentYear} UluLojistik. Tüm Hakları Saklıdır. | Sadece İstanbul İçi Minivan Nakliye
+            © {currentYear} Ülkü Lojistik. Tüm Hakları Saklıdır. | Sadece İstanbul İçi Panelvan Nakliye
           </p>
           <div className="flex items-center gap-4 text-xs text-gray-500">
             <Link href="/sss" className="hover:text-gray-300 transition-colors">

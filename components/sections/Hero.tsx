@@ -19,7 +19,7 @@ export function Hero() {
               </span>
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-[#F8F9FA] border border-[#E5E7EB] rounded-full text-sm text-[#6B7280]">
                 <span className="material-symbols-outlined text-[#E63900] text-[18px]" aria-hidden="true">local_shipping</span>
-                Sadece Minivan
+                Sadece Panelvan
               </span>
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-[#F8F9FA] border border-[#E5E7EB] rounded-full text-sm text-[#6B7280]">
                 <span className="material-symbols-outlined text-[#E63900] text-[18px]" aria-hidden="true">bolt</span>
@@ -29,13 +29,13 @@ export function Hero() {
 
             <h1 className="text-[32px] md:text-[48px] font-semibold leading-[1.15] tracking-tight text-[#111827]">
               İstanbul İçi Hızlı ve Ekonomik{" "}
-              <span className="text-[#E63900]">Minivan Nakliye</span>
+              <span className="text-[#E63900]">Panelvan Nakliye</span>
             </h1>
 
             <p className="text-[18px] text-[#6B7280] leading-relaxed max-w-xl">
               Sadece İstanbul içi, pratik, hızlı ve ekonomik taşıma çözümleri.
               Parça eşya, öğrenci eşyası, beyaz eşya ve ofis taşımacılığında
-              güvenilir minivanlarımızla yanınızdayız.
+              Panelvan 17 m³ araçlarımızla yanınızdayız.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-2">
@@ -78,8 +78,8 @@ export function Hero() {
           {/* Right: Visual */}
           <div className="relative h-[360px] lg:h-[460px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
             <Image
-              src="/images/hero-minivan.png"
-              alt="İstanbul içi hızlı minivan nakliye"
+              src="/updatedimage/Hero.jpeg"
+              alt="İstanbul içi hızlı panelvan nakliye"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

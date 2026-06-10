@@ -7,15 +7,15 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda | İstanbul İçi Minivan Nakliye – UluLojistik",
+  title: "Hakkımızda | İstanbul İçi Panelvan Nakliye – Ülkü Lojistik",
   description:
-    "UluLojistik hakkında bilgi alın. Sadece İstanbul içi minivan nakliye alanında uzmanlaşmış ekibimiz, hizmet anlayışımız ve değerlerimiz.",
+    "Ülkü Lojistik hakkında bilgi alın. Sadece İstanbul içi panelvan nakliye alanında uzmanlaşmış ekibimiz, hizmet anlayışımız ve değerlerimiz.",
   alternates: { canonical: `${siteConfig.domain}/hakkimizda` },
 };
 
 const trustBadges = [
   { icon: "check_circle", text: "Sadece İstanbul İçi Hizmet" },
-  { icon: "check_circle", text: "Pratik Minivan Araçlar" },
+  { icon: "check_circle", text: "Pratik Panelvan Araçlar" },
   { icon: "check_circle", text: "Hızlı ve Şeffaf Fiyatlandırma" },
 ];
 
@@ -28,7 +28,7 @@ const values = [
   {
     icon: "speed",
     title: "Hız",
-    description: "İstanbul trafiğini en iyi bilen minivanlarımızla en kısa sürede kapınızdayız.",
+    description: "İstanbul trafiğini en iyi bilen panelvanlarımızla en kısa sürede kapınızdayız.",
   },
   {
     icon: "location_city",
@@ -54,15 +54,15 @@ export default function HakkimizdaPage() {
 
       <InnerHero
         title="Hızlı, Pratik ve Sadece İstanbul'da"
-        description="İstanbul içinde minivan araçlarla hızlı, ekonomik ve güvenilir taşımacılık hizmeti sunuyoruz. Tüm ilçelere 7/24 hizmet, şeffaf fiyatlandırma ve uzman ekip."
+        description="İstanbul içinde panelvan araçlarla hızlı, ekonomik ve güvenilir taşımacılık hizmeti sunuyoruz. Tüm ilçelere 7/24 hizmet, şeffaf fiyatlandırma ve uzman ekip."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Hakkımızda" },
         ]}
-        badge="İstanbul İçi Minivan Nakliye"
+        badge="İstanbul İçi Panelvan Nakliye"
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         secondaryCTA={{ label: "Hizmetlerimiz", href: "/hizmetler" }}
-        imageUrl="/images/about-us.png"
+        imageUrl="/updatedimage/2.jpeg"
         imageAlt="Hakkımızda"
       />
 
@@ -73,10 +73,10 @@ export default function HakkimizdaPage() {
             {/* Left: Trust badges */}
             <div className="space-y-6">
               <h2 className="text-[22px] md:text-[28px] font-semibold text-[#111827] leading-snug">
-                İstanbul&apos;un Her İlçesine Minivan ile Hizmet
+                İstanbul&apos;un Her İlçesine Panelvan ile Hizmet
               </h2>
               <p className="text-[#6B7280] leading-relaxed text-[17px]">
-                UluLojistik olarak, İstanbul içinde küçük ve orta hacimli taşımalar için özel olarak minivan araç filosu kullanıyoruz. Büyük araçlara gerek duymadan, hızlı ve ekonomik çözümler sunuyoruz.
+                Ülkü Lojistik olarak, İstanbul içinde küçük ve orta hacimli taşımalar için özel olarak panelvan araç filosu kullanıyoruz. Büyük araçlara gerek duymadan, hızlı ve ekonomik çözümler sunuyoruz.
               </p>
               <ul className="space-y-3">
                 {trustBadges.map((badge) => (
@@ -96,8 +96,8 @@ export default function HakkimizdaPage() {
             {/* Right: Visual with floating cards */}
             <div className="relative h-[300px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
               <Image
-                src="/images/about-us.png"
-                alt="İstanbul'un her ilçesine minivan hizmeti"
+                src="/updatedimage/2.jpeg"
+                alt="İstanbul'un her ilçesine panelvan hizmeti"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -129,13 +129,13 @@ export default function HakkimizdaPage() {
               </span>
               <h2 className="text-[22px] md:text-[28px] font-semibold text-[#111827] mb-5">Biz Kimiz?</h2>
               <p className="text-[#6B7280] leading-relaxed text-[17px]">
-                UluLojistik, İstanbul içi minivan nakliye ve yük taşımacılığı alanında uzmanlaşmış bir firmadır. Sadece İstanbul içinde, sadece minivan araçlarla hizmet veren yapımızla müşterilerimize odaklanmış, pratik ve ekonomik çözümler sunuyoruz.
+                Ülkü Lojistik, İstanbul içi panelvan nakliye ve yük taşımacılığı alanında uzmanlaşmış bir firmadır. Sadece İstanbul içinde, sadece panelvan araçlarla hizmet veren yapımızla müşterilerimize odaklanmış, pratik ve ekonomik çözümler sunuyoruz.
               </p>
             </div>
             <div>
-              <h2 className="text-[22px] font-semibold text-[#111827] mb-4">Neden Sadece Minivan?</h2>
+              <h2 className="text-[22px] font-semibold text-[#111827] mb-4">Neden Sadece Panelvan?</h2>
               <p className="text-[#6B7280] leading-relaxed text-[17px]">
-                İstanbul&apos;un yoğun trafiğini ve dar sokaklarını göz önünde bulundurarak, büyük kamyon veya kamyonetler yerine minivan araçlarla hizmet veriyoruz. Bu sayede köprü ve tünel yasaklarına takılmadan, park sorunu yaşamadan ve daha ekonomik fiyatlarla taşıma gerçekleştiriyoruz.
+                İstanbul&apos;un yoğun trafiğini ve dar sokaklarını göz önünde bulundurarak, büyük kamyon veya kamyonetler yerine panelvan araçlarla hizmet veriyoruz. Bu sayede köprü ve tünel yasaklarına takılmadan, park sorunu yaşamadan ve daha ekonomik fiyatlarla taşıma gerçekleştiriyoruz.
               </p>
             </div>
             <div>
@@ -176,7 +176,7 @@ export default function HakkimizdaPage() {
 
       <BottomCTA
         title="İstanbul İçi Taşıma İçin Hazırız"
-        description="Pratik minivan araçlarımız ve deneyimli ekibimizle hemen hizmetinizdeyiz. Ücretsiz teklif alın."
+        description="Pratik panelvan araçlarımız ve deneyimli ekibimizle hemen hizmetinizdeyiz. Ücretsiz teklif alın."
       />
     </>
   );

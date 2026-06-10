@@ -19,7 +19,7 @@ export function Header() {
           <Link
             href="/"
             className="text-xl font-bold tracking-tight text-[#111827] shrink-0"
-            aria-label="UluLojistik - Ana Sayfa"
+            aria-label="Ülkü Lojistik - Ana Sayfa"
           >
             <span className="text-[#E63900]">Ulu</span>Lojistik
           </Link>

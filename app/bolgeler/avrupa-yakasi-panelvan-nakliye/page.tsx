@@ -11,10 +11,10 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Avrupa Yakası Minivan Nakliye | İstanbul – UluLojistik",
+  title: "Avrupa Yakası Panelvan Nakliye | İstanbul – Ülkü Lojistik",
   description:
-    "İstanbul Avrupa yakasında hızlı ve güvenilir minivan nakliye hizmeti. Beşiktaş, Şişli, Bakırköy, Beylikdüzü ve tüm Avrupa yakası ilçelerine 7/24 ekonomik taşımacılık.",
-  alternates: { canonical: `${siteConfig.domain}/bolgeler/avrupa-yakasi-minivan-nakliye` },
+    "İstanbul Avrupa yakasında hızlı ve güvenilir panelvan nakliye hizmeti. Beşiktaş, Şişli, Bakırköy, Beylikdüzü ve tüm Avrupa yakası ilçelerine 7/24 ekonomik taşımacılık.",
+  alternates: { canonical: `${siteConfig.domain}/bolgeler/avrupa-yakasi-panelvan-nakliye` },
 };
 
 const trustBadges = [
@@ -30,7 +30,7 @@ export default function AvrupaYakasiPage() {
         items={[
           { name: "Ana Sayfa", href: "/" },
           { name: "Bölgeler", href: "/bolgeler" },
-          { name: "Avrupa Yakası", href: "/bolgeler/avrupa-yakasi-minivan-nakliye" },
+          { name: "Avrupa Yakası", href: "/bolgeler/avrupa-yakasi-panelvan-nakliye" },
         ]}
       />
 
@@ -38,8 +38,8 @@ export default function AvrupaYakasiPage() {
       <section className="relative py-12 md:py-16 bg-white border-b border-[#E5E7EB] overflow-hidden">
         <div className="absolute inset-0 z-0 pointer-events-none">
           <Image
-            src="/images/region-avrupa.png"
-            alt="Avrupa Yakası Minivan Nakliye"
+            src="/updatedimage/2.jpeg"
+            alt="Avrupa Yakası Panelvan Nakliye"
             fill
             className="object-cover opacity-15"
             priority
@@ -63,11 +63,11 @@ export default function AvrupaYakasiPage() {
               </span>
 
               <h1 className="text-[28px] md:text-[40px] font-semibold leading-tight tracking-tight text-[#111827]">
-                Avrupa Yakası&apos;nda Hızlı ve Güvenilir Minivan Nakliye
+                Avrupa Yakası&apos;nda Hızlı ve Güvenilir Panelvan Nakliye
               </h1>
 
               <p className="text-[17px] text-[#6B7280] leading-relaxed max-w-xl">
-                İstanbul Avrupa yakasındaki tüm ilçelere 7/24 hızlı, ekonomik minivan nakliye hizmeti. Köprü yasaklarına takılmadan, dar sokaklara girerek eşyalarınızı güvenle taşıyoruz.
+                İstanbul Avrupa yakasındaki tüm ilçelere 7/24 hızlı, ekonomik panelvan nakliye hizmeti. Köprü yasaklarına takılmadan, dar sokaklara girerek eşyalarınızı güvenle taşıyoruz.
               </p>
 
               {/* Trust badges */}
@@ -127,7 +127,7 @@ export default function AvrupaYakasiPage() {
               Hizmet Verdiğimiz Avrupa Yakası İlçeleri
             </h2>
             <p className="text-[#6B7280]">
-              Aşağıdaki tüm ilçelere 7/24 minivan nakliye hizmeti veriyoruz.
+              Aşağıdaki tüm ilçelere 7/24 panelvan nakliye hizmeti veriyoruz.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -145,12 +145,12 @@ export default function AvrupaYakasiPage() {
         </Container>
       </section>
 
-      {/* Why minivan section */}
+      {/* Why panelvan section */}
       <WhyMinivan />
 
       {/* Bottom CTA */}
       <BottomCTA
-        title="Avrupa Yakası'nda Hızlı Minivan Nakliye"
+        title="Avrupa Yakası'nda Hızlı Panelvan Nakliye"
         description="Beşiktaş'tan Beylikdüzü'ne, Şişli'den Silivri'ye — tüm Avrupa yakasına ekonomik ve hızlı taşımacılık."
       />
     </>

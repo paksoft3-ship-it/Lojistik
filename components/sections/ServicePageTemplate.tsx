@@ -106,18 +106,18 @@ export function ServicePageTemplate({ service }: ServicePageTemplateProps) {
         </Container>
       </Section>
 
-      {/* Minivan info */}
+      {/* Panelvan info */}
       <Section background="dark">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-[24px] md:text-[28px] font-semibold text-white mb-6">
-                Minivan Araç Kapasitesi
+                Panelvan Araç Kapasitesi
               </h2>
               <ul className="space-y-4">
                 {[
                   "800 kg Taşıma Kapasitesi",
-                  "4-6 m³ Yük Hacmi",
+                  "17 m³ Yük Hacmi",
                   "2.20 m Uzunluk / 1.40 m Genişlik",
                   "Kapalı Kasa — Hava Şartlarından Korunur",
                   "İstanbul'un Dar Sokaklarına Uygun",
@@ -228,6 +228,7 @@ function getIconForItem(name: string): string {
     "Küçük Parçalar": "category",
     "Küçük Cihazlar": "devices",
     "Öğrenci Eşyası": "school",
+    "Fabrikalardan": "factory",
   };
   return map[name] ?? "inventory_2";
 }

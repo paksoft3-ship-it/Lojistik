@@ -18,16 +18,16 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { getFAQsByIds, homepageFAQIds } from "@/data/faq";
 
 export const metadata: Metadata = {
-  title: `İstanbul Minivan Nakliye | ${siteConfig.brandName}`,
+  title: `İstanbul Panelvan Nakliye | ${siteConfig.brandName}`,
   description:
-    "İstanbul içi hızlı ve ekonomik minivan nakliye. Parça eşya, beyaz eşya, öğrenci eşyası ve yük taksi hizmetleri. Aynı gün taşıma, 7/24 hizmet. Hemen teklif alın.",
+    "İstanbul içi hızlı ve ekonomik panelvan nakliye. Parça eşya, beyaz eşya, öğrenci eşyası ve yük taksi hizmetleri. Aynı gün taşıma, 7/24 hizmet. Hemen teklif alın.",
   alternates: {
     canonical: siteConfig.domain,
   },
   openGraph: {
-    title: `İstanbul Minivan Nakliye | ${siteConfig.brandName}`,
+    title: `İstanbul Panelvan Nakliye | ${siteConfig.brandName}`,
     description:
-      "İstanbul içi hızlı ve ekonomik minivan nakliye hizmetleri. Aynı gün teslimat, 7/24 hizmet.",
+      "İstanbul içi hızlı ve ekonomik panelvan nakliye hizmetleri. Aynı gün teslimat, 7/24 hizmet.",
     url: siteConfig.domain,
     type: "website",
   },

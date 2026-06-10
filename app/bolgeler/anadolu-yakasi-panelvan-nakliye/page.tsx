@@ -13,10 +13,10 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { getFAQsByIds } from "@/data/faq";
 
 export const metadata: Metadata = {
-  title: "Anadolu Yakası Minivan Nakliye | İstanbul",
+  title: "Anadolu Yakası Panelvan Nakliye | İstanbul",
   description:
-    "İstanbul Anadolu yakasında minivan nakliye hizmeti. Kadıköy, Üsküdar, Maltepe, Pendik ve tüm ilçelere hızlı ve ekonomik taşımacılık.",
-  alternates: { canonical: `${siteConfig.domain}/bolgeler/anadolu-yakasi-minivan-nakliye` },
+    "İstanbul Anadolu yakasında panelvan nakliye hizmeti. Kadıköy, Üsküdar, Maltepe, Pendik ve tüm ilçelere hızlı ve ekonomik taşımacılık.",
+  alternates: { canonical: `${siteConfig.domain}/bolgeler/anadolu-yakasi-panelvan-nakliye` },
 };
 
 export default function AnadoluYakasiPage() {
@@ -27,12 +27,12 @@ export default function AnadoluYakasiPage() {
         items={[
           { name: "Ana Sayfa", href: "/" },
           { name: "Bölgeler", href: "/bolgeler" },
-          { name: "Anadolu Yakası", href: "/bolgeler/anadolu-yakasi-minivan-nakliye" },
+          { name: "Anadolu Yakası", href: "/bolgeler/anadolu-yakasi-panelvan-nakliye" },
         ]}
       />
       <InnerHero
-        title="Anadolu Yakası Minivan Nakliye"
-        description="İstanbul Anadolu yakasındaki tüm ilçelere 7/24 hızlı, ekonomik minivan nakliye hizmeti. Kadıköy'den Pendik'e, Üsküdar'dan Maltepe'ye tüm semtlere."
+        title="Anadolu Yakası Panelvan Nakliye"
+        description="İstanbul Anadolu yakasındaki tüm ilçelere 7/24 hızlı, ekonomik panelvan nakliye hizmeti. Kadıköy'den Pendik'e, Üsküdar'dan Maltepe'ye tüm semtlere."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "Bölgeler", href: "/bolgeler" },
@@ -40,8 +40,8 @@ export default function AnadoluYakasiPage() {
         ]}
         primaryCTA={{ label: "Teklif Al", href: "/teklif-al" }}
         badge="Anadolu Yakası"
-        imageUrl="/images/region-anadolu.png"
-        imageAlt="Anadolu Yakası Minivan Nakliye"
+        imageUrl="/updatedimage/1.jpeg"
+        imageAlt="Anadolu Yakası Panelvan Nakliye"
       />
 
       <section className="py-14">

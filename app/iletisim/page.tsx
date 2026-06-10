@@ -8,9 +8,9 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export const metadata: Metadata = {
-  title: "İletişim | UluLojistik İstanbul Minivan Nakliye",
+  title: "İletişim | Ülkü Lojistik İstanbul Panelvan Nakliye",
   description:
-    "UluLojistik ile iletişime geçin. Telefon, WhatsApp veya e-posta ile ulaşabilirsiniz. Sadece İstanbul içi hizmet.",
+    "Ülkü Lojistik ile iletişime geçin. Telefon, WhatsApp veya e-posta ile ulaşabilirsiniz. Sadece İstanbul içi hizmet.",
   alternates: { canonical: `${siteConfig.domain}/iletisim` },
 };
 
@@ -26,13 +26,13 @@ export default function IletisimPage() {
 
       <InnerHero
         title="İletişim"
-        description="Minivan nakliye hizmetlerimiz hakkında soru sormak veya teklif almak için bizimle iletişime geçin."
+        description="Panelvan nakliye hizmetlerimiz hakkında soru sormak veya teklif almak için bizimle iletişime geçin."
         breadcrumbs={[
           { label: "Ana Sayfa", href: "/" },
           { label: "İletişim" },
         ]}
         badge="Bize Ulaşın"
-        imageUrl="/images/about-us.png"
+        imageUrl="/updatedimage/2.jpeg"
         imageAlt="İletişim"
       />
 
@@ -103,7 +103,7 @@ export default function IletisimPage() {
               <div className="bg-[#F8F9FA] border border-[#E5E7EB] rounded-[14px] p-6">
                 <h3 className="font-semibold text-[#111827] mb-3">Önemli Not</h3>
                 <p className="text-sm text-[#6B7280] leading-relaxed">
-                  UluLojistik olarak <strong>sadece İstanbul içi</strong> minivan nakliye hizmeti sunmaktayız. Şehirlerarası, uluslararası veya büyük hacimli yük taşımacılığı hizmetimiz bulunmamaktadır.
+                  Ülkü Lojistik olarak <strong>sadece İstanbul içi</strong> panelvan nakliye hizmeti sunmaktayız. Şehirlerarası, uluslararası veya büyük hacimli yük taşımacılığı hizmetimiz bulunmamaktadır.
                 </p>
               </div>
               <div className="bg-[#F0FDF4] border border-[#BBF7D0] rounded-[14px] p-6">
