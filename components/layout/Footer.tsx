@@ -16,10 +16,10 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link
               href="/"
-              className="block mb-6 transition-opacity hover:opacity-90 bg-white rounded-md p-2 inline-block w-fit"
+              className="block mb-6 transition-opacity hover:opacity-90 inline-block w-fit"
               aria-label="Ülkü Lojistik Ana Sayfa"
             >
-              <Image src="/logo.png" alt="Ülkü Lojistik Logo" width={210} height={70} className="h-10 w-auto object-contain" />
+              <Image src="/darklogo.png" alt="Ülkü Lojistik Logo" width={210} height={70} className="h-10 w-auto object-contain" />
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
               İstanbul içi parça eşya, koli, beyaz eşya ve öğrenci eşyası
