@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
 import { trackPhoneClick, trackWhatsAppClick } from "@/lib/tracking";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
+import Image from "next/image";
 
 export function MobileMenuButton({ onClick }: { onClick: () => void }) {
   return (
@@ -52,10 +53,10 @@ export function MobileMenu({
         <div className="flex items-center justify-between px-4 py-4 border-b border-[#E5E7EB]">
           <Link
             href="/"
-            className="font-bold text-xl text-[#111827]"
+            className="shrink-0 transition-opacity hover:opacity-90"
             onClick={onClose}
           >
-            <span className="text-[#E63900]">Ulu</span>Lojistik
+            <Image src="/logo.png" alt="Ülkü Lojistik Logo" width={180} height={60} className="h-8 w-auto object-contain" priority />
           </Link>
           <button
             type="button"
