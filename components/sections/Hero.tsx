@@ -76,16 +76,16 @@ export function Hero() {
           </div>
 
           {/* Right: Visual */}
-          <div className="relative h-[360px] lg:h-[460px] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
+          <div className="relative w-full aspect-[4/3] lg:aspect-[16/11] rounded-[20px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden shadow-sm">
             <Image
               src="/Updatedimage/Hero.jpeg"
               alt="İstanbul içi hızlı panelvan nakliye"
               fill
-              className="object-cover"
+              className="object-cover object-[center_30%]"
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
             />
-            <div className="absolute inset-0 bg-black/10 pointer-events-none" />
+            <div className="absolute inset-0 bg-black/5 pointer-events-none" />
 
             {/* Floating cards */}
             <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm rounded-[12px] border border-[#E5E7EB] px-4 py-3 flex items-center gap-3 shadow-sm">

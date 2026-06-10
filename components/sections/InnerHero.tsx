@@ -69,12 +69,12 @@ export function InnerHero({
           </div>
 
           {/* Visual */}
-          <div className="hidden md:block relative h-[280px] rounded-[14px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden">
+          <div className="hidden md:block relative w-full aspect-[16/10] rounded-[14px] bg-[#F8F9FA] border border-[#E5E7EB] overflow-hidden shadow-sm">
             <Image
               src={imageUrl || "/Updatedimage/1.jpeg"}
               alt={imageAlt || title}
               fill
-              className="object-cover"
+              className="object-cover object-[center_30%]"
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
             />
